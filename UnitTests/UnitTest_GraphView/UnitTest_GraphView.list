@@ -1,0 +1,107 @@
+set (HEADER_FILES
+  AnimationGraph.h
+  AnimationGraphFactory.h
+  AnimationNodeFactory.h
+  BaseAnimationNode.h
+  BaseGraphConnection.h
+  BaseGraphNode.h
+  BaseGraphView.h
+  ConnectionInfo.h
+  ConnectionReceiver.h
+  ContextMenu.h
+  DemoKeeper.h
+  Dialog.h
+  DialogManager.h
+  EventController.h
+  FadeController.h
+  GraphNodeEventController.h
+  GraphNodeFactory.h
+  GraphNodeFadeController.h
+  GraphNodeGroup2Controller.h
+  GraphNodeLoopController.h
+  GraphNodePositionController.h
+  GraphNodeSkeletonState.h
+  GraphNodeWeightController.h
+  GraphView.h
+  Group2Controller.h
+  IAnimationGraph.h
+  IAnimationNode.h
+  IAnimationNodeConstruct.h
+  IGraphController.h
+  IGraphNodeConstruct.h
+  LoopController.h
+  OpenSaveFileDialog.h
+  PositionController.h
+  SkeletonState.h
+  WeightController.h
+)
+set (SOURCE_FILES
+  ../../Common/Base/BaseResource.rc
+  AnimationGraphFactory.cpp
+  AnimationNodeFactory.cpp
+  DemoKeeper.cpp
+  Dialog.cpp
+  DialogManager.cpp
+  GraphNodeFactory.cpp
+  OpenSaveFileDialog.cpp
+)
+SOURCE_GROUP("Animation\\Header Files" FILES
+  AnimationGraph.h
+  AnimationGraphFactory.h
+  AnimationNodeFactory.h
+  ConnectionReceiver.h
+  EventController.h
+  FadeController.h
+  Group2Controller.h
+  IAnimationGraph.h
+  IAnimationNode.h
+  IAnimationNodeConstruct.h
+  LoopController.h
+  PositionController.h
+  SkeletonState.h
+  WeightController.h
+)
+SOURCE_GROUP("Animation\\Source" FILES
+  AnimationGraphFactory.cpp
+  AnimationNodeFactory.cpp
+)
+SOURCE_GROUP("Common\\Header Files" FILES
+  BaseGraphConnection.h
+  BaseGraphNode.h
+  BaseGraphView.h
+  ConnectionInfo.h
+  ContextMenu.h
+  IGraphController.h
+)
+SOURCE_GROUP("Demo\\Header Files" FILES
+  BaseAnimationNode.h
+  DemoKeeper.h
+  GraphNodeFactory.h
+  GraphView.h
+  IGraphNodeConstruct.h
+)
+SOURCE_GROUP("Demo\\Header Files\\Nodes" FILES
+  GraphNodeEventController.h
+  GraphNodeFadeController.h
+  GraphNodeGroup2Controller.h
+  GraphNodeLoopController.h
+  GraphNodePositionController.h
+  GraphNodeSkeletonState.h
+  GraphNodeWeightController.h
+)
+SOURCE_GROUP("Demo\\Resource" FILES
+  ../../Common/Base/BaseResource.rc
+  CMakeLists.txt
+)
+SOURCE_GROUP("Demo\\Source" FILES
+  DemoKeeper.cpp
+  GraphNodeFactory.cpp
+)
+SOURCE_GROUP("OpenSaveFileDialog" FILES
+  Dialog.cpp
+  Dialog.h
+  DialogManager.cpp
+  DialogManager.h
+  OpenSaveFileDialog.cpp
+  OpenSaveFileDialog.h
+)

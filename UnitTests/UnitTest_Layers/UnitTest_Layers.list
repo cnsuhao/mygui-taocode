@@ -1,0 +1,51 @@
+set (HEADER_FILES
+  CommandManager.h
+  ControllerRandomProgress.h
+  ControllerRandomSelected.h
+  ControllerSmoothCaption.h
+  ControllerSmoothProgress.h
+  DemoKeeper.h
+  KeyboardPanel.h
+  MonitorPanel.h
+  MyGUI_RTTLayer.h
+  ResourceDevice.h
+  SceneObject.h
+)
+set (SOURCE_FILES
+  ../../Common/Base/BaseResource.rc
+  CommandManager.cpp
+  DemoKeeper.cpp
+  KeyboardPanel.cpp
+  MonitorPanel.cpp
+  MyGUI_RTTLayer.cpp
+  SceneObject.cpp
+)
+SOURCE_GROUP("Header Files" FILES
+  CommandManager.h
+  ControllerRandomProgress.h
+  ControllerRandomSelected.h
+  ControllerSmoothCaption.h
+  ControllerSmoothProgress.h
+  DemoKeeper.h
+  KeyboardPanel.h
+  MonitorPanel.h
+  ResourceDevice.h
+  SceneObject.h
+)
+SOURCE_GROUP("Header Files\\Layer" FILES
+  MyGUI_RTTLayer.h
+)
+SOURCE_GROUP("Resources" FILES
+  ../../Common/Base/BaseResource.rc
+  CMakeLists.txt
+)
+SOURCE_GROUP("Source Files" FILES
+  CommandManager.cpp
+  DemoKeeper.cpp
+  KeyboardPanel.cpp
+  MonitorPanel.cpp
+  SceneObject.cpp
+)
+SOURCE_GROUP("Source Files\\Layer" FILES
+  MyGUI_RTTLayer.cpp
+)

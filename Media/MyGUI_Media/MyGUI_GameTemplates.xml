@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource">
+	<Resource type="ResourceLayout" name="TextBox" version="3.2.0">
+      <Widget type="Widget" skin="TextBoxSkin" position="20 20 16 16" name="Root">
+          <Property key="TextAlign" value="Default"/>
+          <Property key="FontName" value="Default"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoTextBox18" version="3.2.0">
+      <Widget type="Widget" skin="TextBoxSkin" position="0 0 16 16" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadowColour" value="0.0233918 0.0233918 0.0233918"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoTextBox24" version="3.2.0">
+      <Widget type="Widget" skin="TextBoxSkin" position="0 0 16 16" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadowColour" value="0.0233918 0.0233918 0.0233918"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="EditBoxEmpty" version="3.2.0">
+      <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+          <UserString key="LE_TargetWidgetType" value="EditBox"/>
+          <Widget type="TextBox" skin="EditClientSkin" position="0 0 16 16" align="Stretch" name="Client">
+              <Property key="TextAlign" value="Default"/>
+              <Property key="FontName" value="Default"/>
+              <Property key="TextColour" value="1 1 1"/>
+              <Property key="Pointer" value="beam"/>
+          </Widget>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="WordWrapEmpty" version="3.2.0">
+      <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="WordWrap" value="true"/>
+          <Property key="Static" value="true"/>
+          <Property key="MultiLine" value="true"/>
+          <UserString key="LE_TargetWidgetType" value="EditBox"/>
+          <Widget type="TextBox" skin="EditClientSkin" position="0 0 16 16" align="Stretch" name="Client">
+      	<Property key="InheritsPick" value="true"/>
+              <Property key="TextAlign" value="Default"/>
+              <Property key="FontName" value="Default"/>
+              <Property key="TextColour" value="1 1 1"/>
+          </Widget>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="ScrollBarV" version="3.2.0">
+	    <Widget type="Widget" skin="ScrollPanelVSkin" position="25 50 15 125" name="Root">
+	        <Property key="VerticalAlignment" value="true"/>
+	        <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+	        <Widget type="Widget" skin="PanelEmpty" position="0 14 15 99" align="Stretch" name="TrackPlace">
+	            <Property key="NeedKey" value="false"/>
+	            <Property key="InheritsPick" value="true"/>
+	            <Widget type="Button" skin="ScrollTrackVSkin" position="1 25 14 19" align="HStretch Top" name="Track">
+	                <UserString key="MinTrackSize" value="10"/>
+	            </Widget>
+	            <Widget type="Widget" skin="PanelEmpty" position="0 0 15 25" align="HStretch Top" name="FirstPart"/>
+	            <Widget type="Widget" skin="PanelEmpty" position="0 44 15 55" align="HStretch Top" name="SecondPart"/>
+	        </Widget>
+	        <Widget type="Button" skin="ButtonUpSkin" position="1 2 14 11" align="HCenter Top" name="Start"/>
+	        <Widget type="Button" skin="ButtonDownSkin" position="1 113 14 11" align="HCenter Bottom" name="End"/>
+	    </Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoLoginCheckBox" version="3.2.0">
+			<Widget type="Widget" skin="HallSkins_CheckBox" position="0 0 27 24" name="Root">
+				<Property key="TextAlign" value="Default"/>
+				<Property key="FontName" value="Default"/>
+				<UserString key="LE_TargetWidgetType" value="Button"/>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoLoginEditBox" version="3.2.0">
+      <Widget type="Widget" skin="HallSkins_Frame14" position="0 0 363 52" name="Root">
+          <UserString key="LE_TargetWidgetType" value="EditBox"/>
+          <Widget type="TextBox" skin="EditClientSkin" position="10 5 350 40" align="Stretch" name="Client">
+              <Property key="TextAlign" value="Left VCenter"/>
+              <Property key="FontName" value="FZCQJW24"/>
+              <Property key="TextColour" value="1 1 1"/>
+              <Property key="Pointer" value="beam"/>
+          </Widget>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoInfoEditBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_TipBG" position="65 10 16 16" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="WordWrap" value="true"/>
+          <Property key="Static" value="true"/>
+          <Property key="MultiLine" value="true"/>
+          <UserString key="LE_TargetWidgetType" value="EditBox"/>
+          <Widget type="TextBox" skin="EditClientSkin" position="3 5 10 6" align="Stretch" name="Client">
+      	<Property key="InheritsPick" value="true"/>
+              <Property key="TextAlign" value="Left VCenter"/>
+              <Property key="FontName" value="Default"/>
+              <Property key="TextColour" value="1 1 1"/>
+          </Widget>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoHallButton" version="3.2.0">
+      <Widget type="Widget" skin="LoginSkins_8" position="0 0 226 123" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="0.7 0.9 0"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoHallTextBox" version="3.2.0">
+      <Widget type="Widget" skin="LoginSkins_4" position="0 0 138 36" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+	<Resource type="ResourceLayout" name="KokoMenuButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_anniu5" position="0 0 64 24" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoRedButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_anniu_d1" position="0 0 62 37" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoButton1" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Btn_1" position="0 0 62 37" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoButton2" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Btn_2" position="0 0 62 37" name="Root">
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoButton4" version="3.2.0">
+      <Widget type="Widget" skin="LoginSkins_BlueButton" position="0 0 238 93" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBlueButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_anniu_d4" position="0 0 62 37" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoCardNum" version="3.2.0">
+      <Widget type="Widget" skin="GameSkinsT_CardNum" position="0 0 95 32" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoActionButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Btn_Action" position="0 0 57 56" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBloodTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Img_HP" position="0 0 29 40" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextColour" value="0 1 0"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoAttackTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Img_Attack" position="0 0 29 40" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoRangeTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_Img_Range" position="0 0 29 40" name="Root">
+          <Property key="InheritsPick" value="true"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoPlayerNameTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_PlayerName" position="0 0 134 70" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoShopButton" version="3.2.0">
+      <Widget type="Widget" skin="ShopSkins_anniu_1" position="0 0 44 102" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoShopClose" version="3.2.0">
+      <Widget type="Widget" skin="ShopSkins_guanbi_1" position="0 0 34 33" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoShopConfirm" version="3.2.0">
+      <Widget type="Widget" skin="ShopSkins_anniu_3" position="0 0 96 37" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBuffBlueTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_buff2" position="0 0 20 40" name="Root">
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBuffYellowTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_buff3" position="0 0 20 40" name="Root">
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBuffRedTextBox" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_buff4" position="0 0 20 40" name="Root">
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoSkillButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkinsT_Skill" position="0 0 20 40" name="Root">
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoTalentButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkinsT_Talent" position="0 0 20 40" name="Root">
+          <Property key="TextAlign" value="Center"/>
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoProgressBar" version="3.2.0">
+	  <Widget type="Widget" skin="GameSkins_PrgBar_BK" position="0 0 110 24" name="Root">
+          <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+          <UserString key="TrackFill" value="true"/>
+          <UserString key="TrackSkin" value="GameSkins_PrgBar"/>
+          <UserString key="TrackWidth" value="1"/>
+          <Widget type="Widget" skin="PanelEmpty" position="6 3 98 10" align="Stretch" name="TrackPlace">
+              <Property key="NeedKey" value="false"/>
+              <Property key="InheritsPick" value="true"/>
+          </Widget>
+      </Widget>
+  </Resource>
+  <Resource type="ResourceLayout" name="KokoBloodBar" version="3.2.0">
+	  <Widget type="Widget" skin="GameSkinsT_BloodFrame" position="0 0 110 24" name="Root">
+          <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+          <UserString key="TrackFill" value="true"/>
+          <UserString key="TrackSkin" value="GameSkins_PrgBar"/>
+          <UserString key="TrackWidth" value="1"/>
+          <Widget type="Widget" skin="PanelEmpty" position="4 4 102 16" align="Stretch" name="TrackPlace">
+              <Property key="NeedKey" value="false"/>
+              <Property key="InheritsPick" value="true"/>
+          </Widget>
+      </Widget>
+  </Resource>
+	<Resource type="ResourceLayout" name="KokoShopTabHeaderButton" version="3.2.0">
+			<Widget type="Widget" skin="GameSkins_TabButton" position="20 25 114 36" name="Root">
+				<Property key="FontName" value="FZCQJW30"/>
+				<Property key="FontHeight" value="30"/>
+				<Property key="TextAlign" value="Center"/>
+				<UserString key="LE_TargetWidgetType" value="Button"/>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoShopTabControl" version="3.2.0">
+			<Widget type="Widget" skin="PanelEmpty" position="5 5 800 800" name="Root">
+				<Property key="InheritsPick" value="true"/>
+				<Property key="ButtonAutoWidth" value="false"/>
+				<Property key="ButtonHeight" value="30"/>
+				<Property key="VLayout" value="true"/>
+				<UserString key="LE_TargetWidgetType" value="TabControl"/>
+				<UserString key="ButtonSkin" value="KokoShopTabHeaderButton"/>
+				<Widget type="Widget" skin="PanelEmpty" position="114 0 686 800" align="Stretch">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="3 3 683 797" align="Stretch" name="TabItem">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 114 650" align="Left VStretch" name="HeaderPlace">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 0 114 650" name="Empty">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoBattleMsgTabHeaderButton" version="3.2.0">
+			<Widget type="Widget" skin="GameSkins_Btn_TabHeader1" position="20 25 62 26" name="Root">
+				<Property key="FontName" value="FZCQJW18"/>
+				<Property key="TextAlign" value="Center"/>
+				<Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+            			<Property key="TextShadow" value="true"/>
+            			<Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+				<UserString key="LE_TargetWidgetType" value="Button"/>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoBattleMsgTabControl" version="3.2.0">
+			<Widget type="Widget" skin="PanelEmpty" position="5 5 89 60" name="Root">
+				<Property key="InheritsPick" value="true"/>
+				<UserString key="LE_TargetWidgetType" value="TabControl"/>
+				<UserString key="ButtonSkin" value="KokoBattleMsgTabHeaderButton"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 30 89 29" align="Stretch">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="2 3 83 32" align="Stretch" name="TabItem">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+				<Widget type="Widget" skin="PanelEmpty" position="2 0 89 36" align="HStretch Top" name="HeaderPlace">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 0 52 36" name="Empty">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoEquipTabHeaderButton" version="3.2.0">
+			<Widget type="Widget" skin="GameSkins_Btn_TabHeader2" position="20 25 117 52" name="Root">
+				<Property key="FontName" value="FZCQJW30"/>
+				<Property key="TextAlign" value="Center"/>
+				<Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+            			<Property key="TextShadow" value="true"/>
+            			<Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+				<UserString key="LE_TargetWidgetType" value="Button"/>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoEquipTabControl" version="3.2.0">
+			<Widget type="Widget" skin="PanelEmpty" position="5 5 300 157" name="Root">
+				<Property key="InheritsPick" value="true"/>
+				<UserString key="LE_TargetWidgetType" value="TabControl"/>
+				<UserString key="ButtonSkin" value="KokoEquipTabHeaderButton"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 47 300 113" align="Stretch">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 0 300 110" align="Stretch" name="TabItem">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+				<Widget type="Widget" skin="PanelEmpty" position="9 0 117 52" align="HStretch Top" name="HeaderPlace">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 0 117 52" name="Empty">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoBottomTabHeaderButton" version="3.2.0">
+			<Widget type="Widget" skin="GameSkins_Btn_TabHeader3" position="20 25 22 43" name="Root">
+				<Property key="FontName" value="FZCQJW30"/>
+				<Property key="TextAlign" value="Center"/>
+				<Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+            			<Property key="TextShadow" value="true"/>
+            			<Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+				<UserString key="LE_TargetWidgetType" value="Button"/>
+			</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoBottomTabControl" version="3.2.0">
+			<Widget type="Widget" skin="PanelEmpty" position="5 5 89 228" name="Root">
+				<Property key="InheritsPick" value="true"/>
+				<UserString key="LE_TargetWidgetType" value="TabControl"/>
+				<UserString key="ButtonSkin" value="KokoBottomTabHeaderButton"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 89 184" align="Stretch">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 3 84 181" align="Stretch" name="TabItem">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+				<Widget type="Widget" skin="PanelEmpty" position="0 181 89 47" align="HStretch Bottom" name="HeaderPlace">
+					<Property key="InheritsPick" value="true"/>
+					<Widget type="Widget" skin="PanelEmpty" position="0 0 89 47" name="Empty">
+						<Property key="InheritsPick" value="true"/>
+					</Widget>
+				</Widget>
+			</Widget>
+	</Resource>	
+	<Resource type="ResourceLayout" name="KokoSquadPanel" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="0 0 125 155" name="Root">
+			<Property key="InheritsPick" value="true"/>
+			<Widget type="ImageBox" skin="ImageBox" position="20 25 85 110" name="SquadHeroImg">
+		        	<Property key="InheritsDrag" value="true"/>
+		      	</Widget>
+			<Widget type="Widget" skin="HallSkins_HeroFrame3" position="0 0 125 155">
+		          	<Property key="InheritsPick" value="true"/>
+		          	<Widget type="TextBox" skin="TextBox" position="20 20 85 20" name="SquadNameTxt">
+		             		<Property key="FontName" value="FZCQJW18"/>
+		              		<Property key="TextAlign" value="Center"/>
+		              		<Property key="TextShadow" value="true"/>
+		              		<Property key="TextShadowColour" value="0 0 0"/>
+		              		<Property key="InheritsPick" value="true"/>
+				</Widget>
+		         	<Widget type="Widget" skin="HallSkins_Disabed" position="65 85 40 39" name="SquadDisableImg">
+                  			<Property key="InheritsPick" value="true"/>
+              			</Widget>
+		      </Widget>
+	      	</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoMsgBox" version="3.2.0">
+    	    <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+    	        <Property key="WordWrap" value="true"/>
+    	        <Property key="Static" value="true"/>
+    	        <Property key="MultiLine" value="true"/>
+                <Property key="VisibleVScroll" value="false"/>
+                <Property key="DraggingScrBar" value="true"/>
+    	        <UserString key="LE_TargetWidgetType" value="EditBox"/>
+    	        <Widget type="TextBox" skin="EditClientSkin" position="0 0 10 10" align="Stretch" name="Client">
+    	            <Property key="TextAlign" value="Default"/>
+    	            <Property key="FontName" value="Default"/>
+    	            <Property key="TextColour" value="1 1 1"/>
+    	        </Widget>
+    	        <Widget type="ScrollBar" skin="ScrollBarV" position="10 0 5 10" align="Right VStretch" name="VScroll"/>
+    	    </Widget>
+    	</Resource>
+    <Resource type="ResourceLayout" name="TreeControl" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 219 211" name="Root">
+	    <UserString key="LE_TargetWidgetType" value="TreeControl"/>
+            <UserString key="NeedKey" value="true"/>
+            <UserString key="WheelStep" value="50"/>
+            <UserString key="LevelOffset" value="15"/>
+            <UserString key="DragBound" value="40"/>
+            <Widget type="ScrollBar" skin="ScrollBarV" position="195 8 16 195" align="Right VStretch" name="VScroll"/>
+            <Widget type="Widget" skin="PanelEmpty" position="8 8 186 195" align="Stretch" name="Client">
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 203 195" align="Stretch" name="ItemContainer"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="TreeGroup" version="3.2.0">
+        <Widget type="Widget" skin="TreeLineSkin" position="20 20 43 13" name="Root">
+			<Property key="FontName" value="Simhei"/>
+			<Property key="TextAlign" value="Left VCenter"/>
+			<Widget type="Button" skin="TreeLineExpandCollapse" position="2 3 12 12" name="ButtonExpandCollapse"/>
+		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="TreeLineData" version="3.2.0">
+    	<Widget type="Widget" skin="GameSkins_Info_ItemFrame" position="15 60 200 17" name="Root">
+            <Widget type="TextBox" skin="TextBox" position="5 5 190 15" name="Relation_FName" align="Left VStretch">
+                <Property key="FontName" value="FZCQJW18"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Hall_ChatItem_Self" version="3.2.0">
+    	<Widget type="Widget" skin="GameSkins_Info_ItemFrame" position="15 60 400 60" name="Root">
+			<Widget type="ImageBox" skin="ImageBox" position="0 0 50 60" name="ChatOwnerImg" align="Left Top">
+				<Property key="ImageTexture" value=""/>
+				<Property key="InheritsPick" value="true"/>
+			</Widget>
+			<Widget type="EditBox" skin="EditBoxEmpty" position="50 3 350 57" name="ChatWord" align="Stretch">
+				<Property key="ReadOnly" value="true"/>
+				<Property key="Static" value="true"/>
+				<Property key="MultiLine" value="true"/>
+				<Property key="WordWrap" value="true"/>
+				<Property key="InheritsPick" value="false"/>
+				<Property key="NeedMouse" value="false"/>
+			</Widget>
+		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Hall_ChatItem_Other" version="3.2.0">
+    	<Widget type="Widget" skin="GameSkins_Info_ItemFrame" position="15 60 400 60" name="Root">
+		<Widget type="ImageBox" skin="ImageBox" position="350 0 50 60" name="ChatOwnerImg" align="Right Top">
+			<Property key="ImageTexture" value=""/>
+			<Property key="InheritsPick" value="true"/>
+		</Widget>
+		<Widget type="EditBox" skin="EditBoxEmpty" position="0 3 350 57" name="ChatWord" align="Stretch">
+			<Property key="ReadOnly" value="true"/>
+			<Property key="MultiLine" value="true"/>
+			<Property key="Static" value="true"/>
+			<Property key="WordWrap" value="true"/>
+			<Property key="InheritsPick" value="false"/>
+			<Property key="NeedMouse" value="false"/>
+		</Widget>
+	</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="ChatItem" version="3.2.0">
+    	<Widget type="Widget" skin="PanelEmpty" position="15 60 400 30" name="Root">
+			<Widget type="EditBox" skin="EditBoxEmpty" position="0 0 400 30" name="ChatWord" align="Stretch">
+				<Property key="ReadOnly" value="true"/>
+				<Property key="Static" value="true"/>
+				<Property key="MultiLine" value="true"/>
+				<Property key="WordWrap" value="true"/>
+				<Property key="InheritsPick" value="false"/>
+				<Property key="NeedMouse" value="false"/>
+			</Widget>
+		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="CustomGame_Friend" version="3.2.0">
+	    <Widget type="Widget" skin="PanelEmpty" position="15 95 245 35" name="Root">
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="KokoButton1" position="160 0 85 35" name="CustomGame_InviteBtn">
+                    <Property key="FontName" value="FZCQJW24"/>
+                    <Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+                    <Property key="TextShadow" value="true"/>
+                    <Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position="0 0 155 35" name="CustomGame_FriendName">
+                    <Property key="FontName" value="FZCQJW24"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                    <Property key="TextShadow" value="true"/>
+                    <Property key="TextShadowColour" value="0 0 0"/>
+                    <Property key="InheritsPick" value="true"/>
+                </Widget>
+            </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="WidgetTreeGroup" version="3.2.0">
+        <Widget type="Widget" skin="TreeLineSkin" position="20 20 70 15" name="Root">
+			<Property key="FontName" value="Simhei"/>
+			<Property key="TextAlign" value="Left VCenter"/>
+			<Property key="CanBeSelected" value="true"/>
+			<Property key="AutoHideButton" value="true"/>
+			<Widget type="Button" skin="TreeLineExpandCollapse" position="2 3 12 12" align="Left VCenter" name="ButtonExpandCollapse"/>
+			<Widget type="Button" skin="OrangeCheckBox" position="50 0 20 20" align="Right VCenter" name="VisibleCheckBox"/>
+			<Widget type="TextBox" skin="TextBox" position="15 0 40 20" align="HStretch VCenter" name="MessageTextBox">
+				<Property key="InheritsPick" value="true"/>
+			</Widget>
+		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="GameWindowYN" version="3.2.0">
+		    <Widget type="Widget" skin="PanelEmpty" position="0 0 810 490" name="Root">
+		        <Widget type="Widget" skin="GameSkins_ShopFrameBG" position="20 65 770 345" align="Stretch">
+		            <Property key="InheritsPick" value="true"/>
+		            <Widget type="Widget" skin="GameSkins_ShopDecoratorBG" position="10 25 750 310" align="Stretch">
+		                <Property key="InheritsPick" value="true"/>
+		                <Widget type="Widget" skin="GameSkins_TitleLeft" position="90 30 218 8">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+                    <Widget type="Widget" skin="GameSkins_TitleRight" position="440 30 218 8">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+                    <Widget type="Widget" skin="GameSkins_ShopSmallBar" position="100 295 550 5" align="HStretch Bottom">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+		            </Widget>
+		        </Widget>
+		        <Widget type="Widget" skin="GameSkins_ShopHead" position="0 0 813 107" align="HStretch Top">
+		            <Property key="InheritsPick" value="true"/>
+		        </Widget>
+		        <Widget type="Widget" skin="GameSkins_ShopButtonDec" position="115 400 405 65" align="Left Bottom">
+		            <Property key="InheritsPick" value="true"/>
+		        </Widget>
+		        <Widget type="Widget" skin="GameSkins_ShopButtonDec" position="320 400 405 65" align="Right Bottom">
+		            <Property key="InheritsPick" value="true"/>
+		        </Widget>
+		    </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="GameWindowY" version="3.2.0">
+		    <Widget type="Widget" skin="PanelEmpty" position="0 0 810 490" name="Root">
+		        <Widget type="Widget" skin="GameSkins_ShopFrameBG" position="20 65 770 345" align="Stretch">
+		            <Property key="InheritsPick" value="true"/>
+		            <Widget type="Widget" skin="GameSkins_ShopDecoratorBG" position="10 25 750 310" align="Stretch">
+		                <Property key="InheritsPick" value="true"/>
+		                <Widget type="Widget" skin="GameSkins_TitleLeft" position="90 30 218 8">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+                    <Widget type="Widget" skin="GameSkins_TitleRight" position="440 30 218 8">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+                    <Widget type="Widget" skin="GameSkins_ShopSmallBar" position="100 295 550 5" align="HStretch Bottom">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+		            </Widget>
+		        </Widget>
+		        <Widget type="Widget" skin="GameSkins_ShopHead" position="0 0 813 107" align="HStretch Top">
+		            <Property key="InheritsPick" value="true"/>
+		        </Widget>
+		        <Widget type="Widget" skin="GameSkins_ShopButtonDec" position="0 400 405 65" align="HCenter Bottom">
+		            <Property key="InheritsPick" value="true"/>
+		        </Widget>
+		    </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="ShopRedButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_RedButton" position="0 0 238 93" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="ShopBlueButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_BlueButton" position="0 0 238 93" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+    <Resource type="ResourceLayout" name="RecruitButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_RecruitHeroBG" position="0 0 156 216" name="Root">
+          <Property key="FontName" value="FZCQJW18"/>
+          <Property key="TextAlign" value="Left VCenter"/>
+          <Property key="TextColour" value="1 0.7 0"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="RecruitAttackTxt" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_RecruitAttack" position="0 0 21 21" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="1 1 0"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="RecruitRangeTxt" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_RecruitRange" position="0 0 21 21" name="Root">
+          <Property key="FontName" value="FZCQJW24"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="1 1 0"/>
+          <Property key="TextShadow" value="true"/>
+          <Property key="TextShadowColour" value="0 0 0"/>
+          <UserString key="LE_TargetWidgetType" value="TextBox"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="SelfTipsButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_SelfTips" position="0 0 38 38" name="Root">
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="OtherTipsButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_OtherTips" position="0 0 38 38" name="Root">
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="AddFrientButton" version="3.2.0">
+      <Widget type="Widget" skin="GameSkins_AddFriend" position="0 0 40 39" name="Root">
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+    <Resource type="ResourceLayout" name="Hall_Button1" version="3.2.0">
+        <Widget type="Widget" skin="HallSkins_Button1" position="0 0 100 39" name="Root">
+            <Property key="FontName" value="FZCQJW30"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Hall_GemTxt" version="3.2.0">
+        <Widget type="Widget" skin="HallSkins_GemTxt" position="0 0 100 39" name="Root">
+            <Property key="FontName" value="FZCQJW24"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="TextBox"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Hall_CoinTxt" version="3.2.0">
+        <Widget type="Widget" skin="HallSkins_CoinTxt" position="0 0 100 39" name="Root">
+            <Property key="FontName" value="FZCQJW24"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="TextBox"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="HallTabHeaderButton" version="3.2.0">
+    		<Widget type="Widget" skin="HallSkins_TabButton" position="20 25 62 26" name="Root">
+    			<Property key="FontName" value="FZCQJW30"/>
+    			<Property key="TextAlign" value="Center"/>
+    			<Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+        		<Property key="TextShadow" value="true"/>
+        		<Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+    			<UserString key="LE_TargetWidgetType" value="Button"/>
+    		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="HallTabControl" version="3.2.0">
+    		<Widget type="Widget" skin="PanelEmpty" position="5 5 300 300" name="Root">
+    			<Property key="InheritsPick" value="true"/>
+    			<Property key="ButtonAutoWidth" value="false"/>
+    			<Property key="ButtonHeight" value="87"/>
+    			<Property key="VLayout" value="true"/>
+    			<UserString key="ShelterSkin" value="HallSkins_TabButtonShelter"/>
+    			<UserString key="LE_TargetWidgetType" value="TabControl"/>
+    			<UserString key="ButtonSkin" value="HallTabHeaderButton"/>
+    			<Widget type="Widget" skin="PanelEmpty" position="99 0 201 300" align="Stretch">
+    				<Property key="InheritsPick" value="true"/>
+    				<Widget type="Widget" skin="PanelEmpty" position="0 0 201 300" align="Stretch" name="TabItem">
+    					<Property key="InheritsPick" value="true"/>
+    				</Widget>
+    			</Widget>
+    			<Widget type="Widget" skin="PanelEmpty" position="0 0 113 300" align="Left VStretch" name="HeaderPlace">
+    				<Property key="InheritsPick" value="true"/>
+    				<Widget type="Widget" skin="PanelEmpty" position="0 0 113 300" name="Empty">
+    					<Property key="InheritsPick" value="true"/>
+    				</Widget>
+    			</Widget>
+    			<Widget type="Widget" skin="PanelEmpty" position="0 0 113 300" align="Left VStretch" name="HeaderShelter">
+    				<Property key="InheritsPick" value="true"/>
+    			</Widget>
+    		</Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="HallProgressBar" version="3.2.0">
+       <Widget type="Widget" skin="HallSkins_LevelPrgBarBK" position="0 0 196 22" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="HallSkins_LevelPrgBar"/>
+            <UserString key="TrackWidth" value="1"/>
+            <Widget type="Widget" skin="PanelEmpty" position="10 1 176 22" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="BagTabHeaderButton" version="3.2.0">
+		<Widget type="Widget" skin="HallSkins_BagTabButton" position="20 25 62 26" name="Root">
+			<Property key="FontName" value="FZCQJW18"/>
+			<Property key="TextAlign" value="Center"/>
+			<Property key="TextColour" value="0.419608 0.352941 0.282353"/>
+            		<Property key="TextShadow" value="true"/>
+            		<Property key="TextShadowColour" value="0.941177 0.870588 0.776471"/>
+			<UserString key="LE_TargetWidgetType" value="Button"/>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="BagTabControl" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="5 5 300 300" name="Root">
+			<Property key="InheritsPick" value="true"/>
+			<Property key="ButtonAutoWidth" value="false"/>
+			<Property key="ButtonWidth" value="125"/>
+			<UserString key="LE_TargetWidgetType" value="TabControl"/>
+			<UserString key="ButtonSkin" value="BagTabHeaderButton"/>
+			<Widget type="Widget" skin="PanelEmpty" position="0 57 300 243" align="Stretch">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 300 243" align="Stretch" name="TabItem">
+					<Property key="InheritsPick" value="true"/>
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 300 57" align="HStretch Top" name="HeaderPlace">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 300 57" name="Empty">
+					<Property key="InheritsPick" value="true"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="HallScrollBarV" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="25 50 16 100" name="Root">
+			<Property key="VerticalAlignment" value="true"/>
+			<UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 17 100" align="Stretch" name="TrackPlace">
+				<Widget type="Widget" skin="HallSkins_VScrollTrackPlace" position="7 0 3 100" align="Stretch">
+					<Property key="InheritsPick" value="true"/>
+				</Widget>
+				<Property key="NeedKey" value="false"/>
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Button" skin="HallSkins_VScrollTrackSkin" position="0 10 17 82" align="HStretch Top" name="Track">
+					<UserString key="MinTrackSize" value="10"/>
+				</Widget>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 17 10" align="HStretch Top" name="FirstPart"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 92 17 8" align="HStretch Top" name="SecondPart"/>
+			</Widget>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="HallScrollView" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="0 0 100 100" name="Root">
+			<UserString key="LE_TargetWidgetType" value="ScrollView"/>
+			<Widget type="Widget" skin="PanelEmpty" position="3 3 81 81" align="Stretch" name="Client"/>
+			<Widget type="ScrollBar" skin="HallScrollBarV" position="84 20 16 60" align="Right VStretch" name="VScroll"/>
+			<Widget type="ScrollBar" skin="ScrollBarH" position="20 84 60 16" align="Bottom HStretch" name="HScroll"/>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="HallPortrait" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="0 0 133 130" align="Stretch" name="Root">
+		    <UserString key="LE_TargetWidgetType" value="ImageBox"/>
+    		    <Widget type="ImageBox" skin="ImageBox" position="5 2 125 125" align="Stretch" name="PortraitImg">
+    		    </Widget>
+    		    <Widget type="Widget" skin="HallSkins_Frame6" position="0 0 135 136" align="Stretch">
+    		        <Property key="InheritsPick" value="true"/>
+    		    </Widget>
+    		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="Hall_DescTxt" version="3.2.0">
+    	    <Widget type="Widget" skin="HallSkins_BK5" position="0 0 40 22" name="Root">
+    	        <Property key="FontName" value="FZCQJW24"/>
+    	        <Property key="TextAlign" value="Center"/>
+    	        <UserString key="LE_TargetWidgetType" value="TextBox"/>
+    	    </Widget>
+    	</Resource>
+	<Resource type="ResourceLayout" name="Hall_BagHeroNameTxt" version="3.2.0">
+    	    <Widget type="Widget" skin="HallSkins_BagHeroName" position="0 0 136 27" name="Root">
+    	        <Property key="FontName" value="FZCQJW24"/>
+    	        <Property key="TextAlign" value="Center"/>
+    	        <UserString key="LE_TargetWidgetType" value="TextBox"/>
+    	    </Widget>
+    	</Resource>
+  	<Resource type="ResourceLayout" name="Hall_Button5" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Button5" position="0 0 84 35" name="Root">
+  	        <Property key="FontName" value="FZCQJW30"/>
+  	        <Property key="TextAlign" value="Center"/>
+  	        <UserString key="LE_TargetWidgetType" value="Button"/>
+  	    </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="Hall_Button8" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Button8" position="0 0 84 35" name="Root">
+  	        <Property key="FontName" value="FZCQJW30"/>
+  	        <Property key="TextAlign" value="Center"/>
+  	        <UserString key="LE_TargetWidgetType" value="Button"/>
+  	    </Widget>
+  	</Resource>
+  	<Resource type="ResourceLayout" name="Hall_Button10" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Button10" position="0 0 84 35" name="Root">
+  	        <Property key="FontName" value="FZCQJW30"/>
+  	        <Property key="TextAlign" value="Center"/>
+  	        <UserString key="LE_TargetWidgetType" value="Button"/>
+  	    </Widget>
+  	</Resource>	
+	<Resource type="ResourceLayout" name="Hall_Button12" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Button12" position="0 0 84 35" name="Root">
+  	        <Property key="FontName" value="FZCQJW30"/>
+  	        <Property key="TextAlign" value="Center"/>
+  	        <UserString key="LE_TargetWidgetType" value="Button"/>
+  	    </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="Hall_Button13" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Button13" position="0 0 84 35" name="Root">
+  	        <Property key="FontName" value="FZCQJW30"/>
+  	        <Property key="TextAlign" value="Center"/>
+  	        <UserString key="LE_TargetWidgetType" value="Button"/>
+  	    </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="KokoBlueButton" version="3.2.0">
+		<Widget type="Widget" skin="GameSkins_BlueButton" position="20 25 117 52" name="Root">
+			<Property key="FontName" value="FZCQJW30"/>
+			<Property key="TextAlign" value="Center"/>
+			<Property key="TextColour" value="0.424778 0.88627 0.93333"/>
+			<UserString key="LE_TargetWidgetType" value="Button"/>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoRedButton" version="3.2.0">
+		<Widget type="Widget" skin="GameSkins_RedButton" position="20 25 117 52" name="Root">
+			<Property key="FontName" value="FZCQJW30"/>
+			<Property key="TextAlign" value="Center"/>
+			<Property key="TextColour" value="0.97254 0.67058 0.45098"/>
+			<UserString key="LE_TargetWidgetType" value="Button"/>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="KokoSettingButton" version="3.2.0">
+		<Widget type="Widget" skin="HallSkins_Button8" position="20 25 114 52" name="Root">
+			<Property key="FontName" value="FZCQJW30"/>
+			<Property key="TextAlign" value="Center"/>
+			<Property key="TextColour" value="0.97254 0.67058 0.45098"/>
+			<UserString key="LE_TargetWidgetType" value="Button"/>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="ChatTreeControl" version="3.2.0">
+        <Widget type="Widget" skin="HallSkins_Frame28" position="0 0 219 211" name="Root">
+	    <UserString key="LE_TargetWidgetType" value="TreeControl"/>
+            <UserString key="NeedKey" value="true"/>
+            <UserString key="WheelStep" value="50"/>
+            <UserString key="LevelOffset" value="15"/>
+            <UserString key="DragBound" value="40"/>
+            <Widget type="ScrollBar" skin="ScrollBarV" position="195 8 16 195" align="Right VStretch" name="VScroll"/>
+            <Widget type="Widget" skin="PanelEmpty" position="8 8 186 195" align="Stretch" name="Client">
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 203 195" align="Stretch" name="ItemContainer"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="ChatEditBox" version="3.2.0">
+      <Widget type="Widget" skin="HallSkins_Frame14" position="0 0 282 39" name="Root">
+          <UserString key="LE_TargetWidgetType" value="EditBox"/>
+          <Widget type="TextBox" skin="EditClientSkin" position="10 5 265 30" align="Stretch" name="Client">
+              <Property key="TextAlign" value="Left VCenter"/>
+              <Property key="FontName" value="FZCQJW24"/>
+              <Property key="TextColour" value="1 1 1"/>
+              <Property key="Pointer" value="beam"/>
+          </Widget>
+      </Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="RelationTreeControl" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 219 211" name="Root">
+	    <UserString key="LE_TargetWidgetType" value="TreeControl"/>
+            <UserString key="NeedKey" value="true"/>
+            <UserString key="WheelStep" value="50"/>
+            <UserString key="LevelOffset" value="0"/>
+            <UserString key="DragBound" value="40"/>
+            <Widget type="ScrollBar" skin="ScrollBarV" position="195 8 16 195" align="Right VStretch" name="VScroll"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 203 195" align="Stretch" name="Client">
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 219 195" align="Stretch" name="ItemContainer"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="RelationTreeGroup" version="3.2.0">
+		<Widget type="Widget" skin="HallSkins_Button9" position="179 66 353 47" name="Root">
+			<Property key="FontName" value="FZCQJW24"/>
+			<Property key="TextAlign" value="Center"/>
+			<Widget type="Button" skin="HallSkins_Plus1" position="318 10 27 26" name="ButtonExpandCollapse" align="Right VStretch"/>
+		</Widget>
+    </Resource>
+  	<Resource type="ResourceLayout" name="Hall_Bag_HeroTemplate" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="10 18 170 236" name="Root">
+                       <Property key="InheritsPick" value="true"/>
+		   <Widget type="TextBox" skin="Hall_BagHeroNameTxt" position="19 208 136 27" name="Hall_Bag_HeroNameTxt">
+			   <Property key="InheritsPick" value="true"/>
+		   </Widget>
+		   <Widget type="ImageBox" skin="ImageBox" position="24 25 128 165" name="Hall_Bag_HeroImg">
+			   <Property key="InheritsDrag" value="true"/>
+		   </Widget>
+		   <Widget type="Widget" skin="HallSkins_HeroFrame" position="0 0 170 220">
+			   <Property key="InheritsPick" value="true"/>
+			   <Widget type="Widget" skin="HallSkins_BK6" position="30 168 116 26">
+				   <Property key="InheritsPick" value="true"/>
+				   <Widget type="Widget" skin="HallSkins_Coin2" position="5 7 17 17">
+					   <Property key="InheritsPick" value="true"/>
+				   </Widget>
+				   <Widget type="Widget" skin="HallSkins_Gem2" position="58 7 17 17">
+					   <Property key="InheritsPick" value="true"/>
+				   </Widget>
+				   <Widget type="TextBox" skin="TextBox" position="21 6 37 17" name="Hall_Bag_Hero_CoinTxt">
+					   <Property key="InheritsPick" value="true"/>
+				   </Widget>
+				   <Widget type="TextBox" skin="TextBox" position="76 5 35 19" name="Hall_Bag_Hero_GemTxt">
+					   <Property key="InheritsPick" value="true"/>
+				   </Widget>
+			   </Widget>
+			   <Widget type="TextBox" skin="TextBox" position="31 34 115 20" name="Hall_Bag_Hero_TimeLimitTxt">
+				   <Property key="InheritsPick" value="true"/>
+			   </Widget>
+		   </Widget>
+	   </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="Hall_ChatInputEditBox" version="3.2.0">
+  	    <Widget type="Widget" skin="HallSkins_Frame14" position="0 0 282 39" name="Root">
+  	        <UserString key="LE_TargetWidgetType" value="EditBox"/>
+  	        <Widget type="TextBox" skin="EditClientSkin" position="10 5 265 30" align="Stretch" name="Client">
+  	            <Property key="TextAlign" value="Left VCenter"/>
+  	            <Property key="FontName" value="FZCQJW24"/>
+  	            <Property key="TextColour" value="1 1 1"/>
+  	            <Property key="Pointer" value="beam"/>
+  	        </Widget>
+  	    </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="TreeData_Friend" version="3.2.0">
+    	<Widget type="Widget" skin="PanelEmpty" position="15 60 355 102" name="Root">
+			<Widget type="ImageBox" skin="ImageBox" position="6 4 90 90">
+				<Property key="InheritsPick" value="true"/>
+			</Widget>
+			<Widget type="Widget" skin="HallSkins_Frame31" position="0 0 355 102">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="HallSkins_Frame15" position="162 45 86 39"/>
+				<Widget type="Widget" skin="HallSkins_Frame15" position="257 45 85 39"/>
+			</Widget>
+			<Widget type="Button" skin="Hall_Button10" position="166 49 78 30" name="BlackListButton">
+				<Property key="Caption" value="#{BlackList}"/>
+				<Property key="FontName" value="FZCQJW18"/>
+				<Property key="TextColour" value="0.976471 0.658824 0.0431373"/>
+			</Widget>
+			<Widget type="Button" skin="Hall_Button10" position="260 49 78 30" name="DeleteButton">
+				<Property key="Caption" value="#{Delete}"/>
+				<Property key="FontName" value="FZCQJW18"/>
+				<Property key="TextColour" value="0.976471 0.658824 0.0431373"/>
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position="102 14 78 32" align="Left VStretch" name="Relation_FName">
+				<Property key="FontName" value="FZCQJW24"/>
+				<Property key="TextAlign" value="Left VCenter"/>
+				<Property key="InheritsPick" value="true"/>
+				<Property key="TextColour" value="1 0.733333 0.0784314"/>
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position="102 51 61 31" name="Relation_Status">
+				<Property key="TextAlign" value="Left VCenter"/>
+				<Property key="FontName" value="FZCQJW24"/>
+				<Property key="InheritsPick" value="true"/>
+			</Widget>
+		</Widget>
+    </Resource>		
+    <Resource type="ResourceLayout" name="TreeData_BlackList" version="3.2.0">
+    	<Widget type="Widget" skin="PanelEmpty" position="15 60 355 102" name="Root">
+            <Widget type="ImageBox" skin="ImageBox" position="6 4 90 90">
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+			<Widget type="Widget" skin="HallSkins_Frame31" position="0 0 355 102">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="HallSkins_Frame15" position="257 45 85 39"/>
+			</Widget>
+			<Widget type="Button" skin="Hall_Button10" position="260 49 78 30" name="DeleteButton">
+				<Property key="Caption" value="#{Delete}"/>
+				<Property key="FontName" value="FZCQJW18"/>
+				<Property key="TextColour" value="0.976471 0.658824 0.0431373"/>
+			</Widget>
+            <Widget type="TextBox" skin="TextBox" position="102 14 78 32" name="Relation_FName" align="Left VStretch">
+                <Property key="FontName" value="FZCQJW24"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="InheritsPick" value="true"/>
+				<Property key="TextColour" value="1 0.733333 0.0784314"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="102 51 61 31" name="Relation_Status">
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="FontName" value="FZCQJW24"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+        </Widget>
+    </Resource>
+	<Resource type="ResourceLayout" name="PersonalInfoTabControl" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="5 5 300 300" name="Root">
+			<Property key="InheritsPick" value="true"/>
+			<Property key="ButtonAutoWidth" value="false"/>
+			<Property key="ButtonWidth" value="125"/>
+			<UserString key="LE_TargetWidgetType" value="TabControl"/>
+			<UserString key="ButtonSkin" value="Hall_PersonalInfo_MatchTabButton"/>
+			<Widget type="Widget" skin="PanelEmpty" position="0 0 300 224" align="Stretch">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 300 224" align="Stretch" name="TabItem">
+					<Property key="InheritsPick" value="true"/>
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" position="0 224 300 76" align="HStretch Bottom" name="HeaderPlace">
+				<Property key="InheritsPick" value="true"/>
+				<Widget type="Widget" skin="PanelEmpty" position="0 0 300 76" name="Empty">
+					<Property key="InheritsPick" value="true"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	</Resource>
+	<Resource type="ResourceLayout" name="Hall_Lineup_HeroTemplate" version="3.2.0">
+	    <Widget type="Widget" skin="PanelEmpty" position="53 17 112 110" name="Root">
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Widget" skin="HallSkins_BK1" position="4 3 103 102">
+                    <Property key="InheritsPick" value="true"/>
+                    <Widget type="Widget" skin="HallSkins_Lock" position="35 30 35 46" name="Hall_Lineup_Lock">
+                        <Property key="InheritsPick" value="true"/>
+                    </Widget>
+                </Widget>
+                <Widget type="ImageBox" skin="ImageBox" position="6 2 102 102" name="Hall_Lineup_SelectedHero_Img">
+                    <Property key="InheritsDrag" value="true"/>
+                </Widget>
+                <Widget type="Widget" skin="HallSkins_Frame6" position="0 0 113 113">
+                    <Property key="InheritsPick" value="true"/>
+                </Widget>
+            </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="Hall_Match_FriendTemplate" version="3.2.0">
+	    <Widget type="Widget" skin="PanelEmpty" position="325 210 278 83" name="Root">
+	        <Property key="InheritsPick" value="true"/>
+	        <Widget type="ImageBox" skin="ImageBox" position="7 3 72 67" name="Hall_Match_FriendImg">
+	            <Property key="InheritsPick" value="true"/>
+	        </Widget>
+	        <Widget type="Widget" skin="HallSkins_Frame31" position="0 0 277 83">
+	            <Property key="InheritsPick" value="true"/>
+	            <Widget type="TextBox" skin="TextBox" position="80 12 178 29" name="Hall_Match_FriendNameTxt">
+	                <Property key="InheritsPick" value="true"/>
+	                <Property key="FontName" value="FZCQJW30"/>
+	                <Property key="TextAlign" value="Center"/>
+	            </Widget>
+	            <Widget type="TextBox" skin="TextBox" position="82 42 60 27" name="Hall_Match_FriendStatusTxt">
+	                <Property key="InheritsPick" value="true"/>
+	                <Property key="TextAlign" value="Center"/>
+	                <Property key="FontName" value="FZCQJW24"/>
+	            </Widget>
+	            <Widget type="ImageBox" skin="ImageBox" position="149 46 20 20" name="Hall_Match_FrindStateImage">
+	                <Property key="ImageGroup" value="Game"/>
+	                <Property key="InheritsPick" value="true"/>
+	                <Property key="ImageResource" value="PlayerStateImage"/>
+	                <Property key="ImageName" value="IR_Free"/>
+	            </Widget>
+	            <Widget type="Button" skin="HallSkins_Plus2" position="11 39 30 29" name="Hall_Match_InviteFriendBtn"/>
+	        </Widget>
+	    </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="Hall_PersonalInfo_MatchTabButton" version="3.2.0">
+      <Widget type="Widget" skin="HallSkins_Button7" position="0 0 238 93" name="Root">
+          <Property key="FontName" value="FZCQJW30"/>
+          <Property key="TextAlign" value="Center"/>
+          <Property key="TextColour" value="1 1 1"/>
+          <UserString key="LE_TargetWidgetType" value="Button"/>
+      </Widget>
+  	</Resource>
+	<Resource type="ResourceLayout" name="RogGame_FinishBtn" version="3.2.0">
+		<Widget type="Widget" skin="GameSkins_FinishBtnSkin" position="0 0 122 53" name="Root">
+			<Property key="FontName" value="FZCQJW30"/>
+			<Property key="TextAlign" value="Center"/>
+			<Property key="TextColour" value="1 1 1"/>
+			<Property key="TextShadow" value="true"/>
+			<Property key="TextShadowColour" value="0 0 0"/>
+			<UserString key="LE_TargetWidgetType" value="Button"/>
+		</Widget>
+	</Resource>
+</MyGUI>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="GameMiscSkins_LoseBG" size="1532 180" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1532 180" align="Stretch">
+			<State name="normal" offset="0 828 1532 180"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_WinBG" size="1532 180" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1532 180" align="Stretch">
+			<State name="normal" offset="0 648 1532 180"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_BeginBG" size="892 360" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 892 360" align="Stretch">
+			<State name="normal" offset="0 288 892 360"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_BeginLeft" size="248 248" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 248 248" align="Stretch">
+			<State name="normal" offset="1532 760 248 248"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_BeginRight" size="248 248" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 248 248" align="Stretch">
+			<State name="normal" offset="0 40 248 248"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_LoseRight" size="244 244" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 244 244" align="Stretch">
+			<State name="normal" offset="892 404 244 244"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_WinLeft" size="244 244" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 244 244" align="Stretch">
+			<State name="normal" offset="1780 764 244 244"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_WinRight" size="240 244" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 240 244" align="Stretch">
+			<State name="normal" offset="248 44 240 244"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_LoseLeft" size="240 240" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 240 240" align="Stretch">
+			<State name="normal" offset="1136 408 240 240"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_state_deity" size="200 40" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 200 40" align="Stretch">
+			<State name="normal" offset="1532 720 200 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_state_discard" size="200 40" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 200 40" align="Stretch">
+			<State name="normal" offset="0 0 200 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_state_interrupt" size="200 40" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 200 40" align="Stretch">
+			<State name="normal" offset="892 364 200 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_state_playing" size="200 40" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 200 40" align="Stretch">
+			<State name="normal" offset="488 248 200 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_state_recruit" size="200 40" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 200 40" align="Stretch">
+			<State name="normal" offset="1532 680 200 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameMiscSkins_DecHPTip" size="88 104" texture="MyGUI_GameMiscImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 88 104" align="Stretch">
+			<State name="normal" offset="1376 544 88 104"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

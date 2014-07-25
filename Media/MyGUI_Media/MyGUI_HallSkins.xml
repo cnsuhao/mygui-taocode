@@ -1,0 +1,1207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="HallSkins_Frame2" size="1024 54" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 54" align="Stretch">
+			<State name="normal" offset="677 1914 1024 54"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame1" size="1024 42" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 42" align="Stretch">
+			<State name="normal" offset="677 1872 1024 42"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame4" size="718 35" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 718 35" align="Stretch">
+			<State name="normal" offset="677 1710 718 35"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame3" size="692 43" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 692 43" align="Stretch">
+			<State name="normal" offset="677 1667 692 43"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Logo" size="250 96" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 250 96" align="Stretch">
+			<State name="normal" offset="209 700 250 96"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_RightRay" size="218 8" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 218 8" align="Stretch">
+			<State name="normal" offset="927 1176 218 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LeftRay" size="218 8" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 218 8" align="Stretch">
+			<State name="normal" offset="927 1184 218 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LevelPrgBar" size="26 23" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="16 0 10 23" align="Right VStretch">
+			<State name="normal" offset="1633 1394 10 23"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 10 23" align="Left VStretch">
+			<State name="normal" offset="1617 1394 10 23"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 0 6 23" align="Stretch">
+			<State name="normal" offset="1627 1394 6 23"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_TabButtonShelter" size="113 87" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 113 87" align="Stretch">
+			<State name="normal" offset="755 736 113 87"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button1" size="100 39" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 100 39" align="Stretch">
+			<State name="normal" offset="612 420 100 39"/>
+			<State name="highlighted" offset="612 420 100 39"/>
+			<State name="pushed" offset="498 377 100 39"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="12 3 76 34" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_CoinTxt" size="109 19" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 109 19" align="Stretch">
+			<State name="normal" offset="479 358 109 19"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="5 0 99 19" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_TabButton" size="113 87" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 113 87" align="Stretch">
+			<State name="normal" offset="932 1051 113 87"/>
+			<State name="normal_checked" offset="742 604 113 87"/>
+			<State name="highlighted_checked" offset="742 604 113 87"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="31 18 65 45" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+			<State name="highlighted_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Help" size="55 55" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 55 55" align="Stretch">
+			<State name="normal" offset="424 331 55 55"/>
+			<State name="highlighted" offset="424 331 55 55"/>
+			<State name="pushed" offset="381 193 55 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_GemTxt" size="86 19" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 86 19" align="Stretch">
+			<State name="normal" offset="209 681 86 19"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="4 0 78 19" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Gem" size="33 29" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 29" align="Stretch">
+			<State name="normal" offset="480 1053 33 29"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LevelBK" size="28 28" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 28 28" align="Stretch">
+			<State name="normal" offset="563 330 28 28"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Coin" size="22 20" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 22 20" align="Stretch">
+			<State name="normal" offset="1723 1400 22 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LevelShelter" size="16 10" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 16 10" align="Stretch">
+			<State name="normal" offset="626 875 16 10"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LevelPrgBarBK" size="196 22" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 196 22" align="Stretch">
+			<State name="normal" offset="956 1192 196 22"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_TabItemBK" size="677 532" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 677 532" align="Stretch">
+			<State name="normal" offset="0 1516 677 532"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame5" size="698 20" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 698 20" align="Stretch">
+			<State name="normal" offset="677 1647 698 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Ray" size="544 7" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 544 7" align="Stretch">
+			<State name="normal" offset="677 1640 544 7"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroFrame" size="170 220" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 170 220" align="Stretch">
+			<State name="normal" offset="1054 1420 170 220"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_TabItemFrame" size="130 65" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 5" align="Left Top">
+			<State name="normal" offset="301 248 7 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 116 5" align="HStretch Top">
+			<State name="normal" offset="308 248 116 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="123 0 7 5" align="Right Top">
+			<State name="normal" offset="424 248 7 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="123 5 7 55" align="Right VStretch">
+			<State name="normal" offset="424 253 7 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="123 60 7 5" align="Right Bottom">
+			<State name="normal" offset="424 308 7 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 60 116 5" align="HStretch Bottom">
+			<State name="normal" offset="308 308 116 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 60 7 5" align="Left Bottom">
+			<State name="normal" offset="301 308 7 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 5 7 55" align="Left VStretch">
+			<State name="normal" offset="301 253 7 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 5 116 55" align="Stretch">
+			<State name="normal" offset="308 253 116 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BagTabButton" size="127 61" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 127 61" align="Stretch">
+			<State name="normal" offset="1224 1420 127 61"/>
+			<State name="normal_checked" offset="278 85 127 61"/>
+			<State name="highlighted_checked" offset="278 85 127 61"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="17 15 90 30" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+			<State name="highlighted_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroDescBK" size="114 45" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 5 5" align="Left Top">
+			<State name="normal" offset="755 691 5 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="5 0 104 5" align="HStretch Top">
+			<State name="normal" offset="760 691 104 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 0 5 5" align="Right Top">
+			<State name="normal" offset="864 691 5 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 5 5 35" align="Right VStretch">
+			<State name="normal" offset="864 696 5 35"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 40 5 5" align="Right Bottom">
+			<State name="normal" offset="864 731 5 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="5 40 104 5" align="HStretch Bottom">
+			<State name="normal" offset="760 731 104 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 40 5 5" align="Left Bottom">
+			<State name="normal" offset="755 731 5 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 5 5 35" align="Left VStretch">
+			<State name="normal" offset="755 696 5 35"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="5 5 104 35" align="Stretch">
+			<State name="normal" offset="760 696 104 35"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Ornament1" size="48 55" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 22 25" align="Left Top">
+			<State name="normal" offset="431 276 22 25"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="22 0 3 25" align="HStretch Top">
+			<State name="normal" offset="453 276 3 25"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="25 0 23 25" align="Right Top">
+			<State name="normal" offset="456 276 23 25"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="25 25 23 3" align="Right VStretch">
+			<State name="normal" offset="456 301 23 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="25 28 23 27" align="Right Bottom">
+			<State name="normal" offset="456 304 23 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="22 28 3 27" align="HStretch Bottom">
+			<State name="normal" offset="453 304 3 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 28 22 27" align="Left Bottom">
+			<State name="normal" offset="431 304 22 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 25 22 3" align="Left VStretch">
+			<State name="normal" offset="431 301 22 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="22 25 3 3" align="Stretch">
+			<State name="normal" offset="453 301 3 3"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Ornament2" size="23 24" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 23 24" align="Stretch">
+			<State name="normal" offset="1279 1198 23 24"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Ornament3" size="24 25" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 24 25" align="Stretch">
+			<State name="normal" offset="1617 1417 24 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Back" size="55 55" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 55 55" align="Stretch">
+			<State name="normal" offset="479 268 55 55"/>
+			<State name="highlighted" offset="479 268 55 55"/>
+			<State name="pushed" offset="1505 1285 55 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ImgBtn1" size="301 202" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 301 202" align="Stretch">
+			<State name="normal" offset="0 260 301 202"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ImgBtn2" size="183 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 183 205" align="Stretch">
+			<State name="normal" offset="956 1214 183 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ImgBtn3" size="183 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 183 205" align="Stretch">
+			<State name="normal" offset="1459 1442 183 205"/>
+			<State name="highlighted" offset="1459 1442 183 205"/>
+			<State name="pushed" offset="305 495 183 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_DoubleTextBK" size="137 154" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 137 154" align="Stretch">
+			<State name="normal" offset="791 823 137 154"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame7" size="165 168" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 165 168" align="Stretch">
+			<State name="normal" offset="480 885 165 168"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame6" size="135 136" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 135 136" align="Stretch">
+			<State name="normal" offset="488 601 135 136"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Ornament4" size="129 132" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 129 132" align="Stretch">
+			<State name="normal" offset="626 697 129 132"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ScrollTrackPlace" size="3 132" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1 2" align="Left Top">
+			<State name="normal" offset="2006 1916 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 0 1 2" align="HStretch Top">
+			<State name="normal" offset="2007 1916 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 0 1 2" align="Right Top">
+			<State name="normal" offset="2008 1916 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 2 1 128" align="Right VStretch">
+			<State name="normal" offset="2008 1918 1 128"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 130 1 2" align="Right Bottom">
+			<State name="normal" offset="2008 2046 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 130 1 2" align="HStretch Bottom">
+			<State name="normal" offset="2007 2046 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 130 1 2" align="Left Bottom">
+			<State name="normal" offset="2006 2046 1 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 2 1 128" align="Left VStretch">
+			<State name="normal" offset="2006 1918 1 128"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 2 1 128" align="Stretch">
+			<State name="normal" offset="2007 1918 1 128"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ScrollTrackSkin" size="16 82" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 16 7" align="HStretch Top">
+			<State name="normal" offset="459 714 16 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 75 16 7" align="HStretch Bottom">
+			<State name="normal" offset="459 789 16 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 16 68" align="Stretch">
+			<State name="normal" offset="459 721 16 68"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame24" size="1024 80" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 80" align="Stretch">
+			<State name="normal" offset="677 1968 1024 80"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame25" size="1024 20" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 20" align="Stretch">
+			<State name="normal" offset="677 1852 1024 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame30" size="719 107" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 719 107" align="Stretch">
+			<State name="normal" offset="677 1745 719 107"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame26" size="209 415" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 209 415" align="Stretch">
+			<State name="normal" offset="0 667 209 415"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK2" size="271 286" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 271 286" align="Stretch">
+			<State name="normal" offset="209 796 271 286"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_PVP" size="305 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 305 205" align="Stretch">
+			<State name="normal" offset="0 462 305 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame19" size="377 108" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 377 108" align="Stretch">
+			<State name="normal" offset="677 1419 377 108"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_PVE" size="305 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 305 205" align="Stretch">
+			<State name="normal" offset="1701 1843 305 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Plot" size="305 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 305 205" align="Stretch">
+			<State name="normal" offset="1701 1638 305 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Custom" size="305 205" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 305 205" align="Stretch">
+			<State name="normal" offset="1396 1647 305 205"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame20" size="377 113" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 377 113" align="Stretch">
+			<State name="normal" offset="677 1527 377 113"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame21" size="377 113" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 377 113" align="Stretch">
+			<State name="normal" offset="579 1306 377 113"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame31" size="377 113" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 377 113" align="Stretch">
+			<State name="normal" offset="579 1193 377 113"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame9" size="235 166" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 235 45" align="HStretch Top">
+			<State name="normal" offset="1224 1481 235 45"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 61 235 105" align="HStretch Bottom">
+			<State name="normal" offset="1224 1542 235 105"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 45 235 16" align="Stretch">
+			<State name="normal" offset="1224 1526 235 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame22" size="348 93" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 348 93" align="Stretch">
+			<State name="normal" offset="579 1100 348 93"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button9" size="353 47" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 353 47" align="Stretch">
+			<State name="normal" offset="579 1053 353 47"/>
+			<State name="highlighted" offset="579 1053 353 47"/>
+			<State name="pushed" offset="1642 1591 353 47"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame13" size="327 45" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 12" align="Left Top">
+			<State name="normal" offset="1642 1546 7 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 313 12" align="HStretch Top">
+			<State name="normal" offset="1649 1546 313 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="320 0 7 12" align="Right Top">
+			<State name="normal" offset="1962 1546 7 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="320 12 7 27" align="Right VStretch">
+			<State name="normal" offset="1962 1558 7 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="320 39 7 6" align="Right Bottom">
+			<State name="normal" offset="1962 1585 7 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 39 313 6" align="HStretch Bottom">
+			<State name="normal" offset="1649 1585 313 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 39 7 6" align="Left Bottom">
+			<State name="normal" offset="1642 1585 7 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 12 7 27" align="Left VStretch">
+			<State name="normal" offset="1642 1558 7 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 12 313 27" align="Stretch">
+			<State name="normal" offset="1649 1558 313 27"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button5" size="252 77" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 252 77" align="Stretch">
+			<State name="normal" offset="0 0 252 77"/>
+			<State name="highlighted" offset="0 0 252 77"/>
+			<State name="pushed" offset="252 0 252 77"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="32 10 179 54" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame29" size="167 172" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 78 75" align="Left Top">
+			<State name="normal" offset="1139 1248 78 75"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 0 11 75" align="HStretch Top">
+			<State name="normal" offset="1217 1248 11 75"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="89 0 78 75" align="Right Top">
+			<State name="normal" offset="1228 1248 78 75"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="89 75 78 19" align="Right VStretch">
+			<State name="normal" offset="1228 1323 78 19"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="89 94 78 78" align="Right Bottom">
+			<State name="normal" offset="1228 1342 78 78"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 94 11 78" align="HStretch Bottom">
+			<State name="normal" offset="1217 1342 11 78"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 94 78 78" align="Left Bottom">
+			<State name="normal" offset="1139 1342 78 78"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 75 78 19" align="Left VStretch">
+			<State name="normal" offset="1139 1323 78 19"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 75 11 19" align="Stretch">
+			<State name="normal" offset="1217 1323 11 19"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button6" size="253 76" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 253 76" align="Stretch">
+			<State name="normal" offset="1642 1420 253 76"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button7" size="253 76" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 253 76" align="Stretch">
+			<State name="normal" offset="645 977 253 76"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="71 10 144 54" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame16" size="321 50" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 321 50" align="Stretch">
+			<State name="normal" offset="1642 1496 321 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame18" size="123 144" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 50 51" align="Left Top">
+			<State name="normal" offset="301 313 50 51"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="50 0 24 51" align="HStretch Top">
+			<State name="normal" offset="351 313 24 51"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="74 0 49 51" align="Right Top">
+			<State name="normal" offset="375 313 49 51"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="74 51 49 41" align="Right VStretch">
+			<State name="normal" offset="375 364 49 41"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="74 92 49 52" align="Right Bottom">
+			<State name="normal" offset="375 405 49 52"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="50 92 24 52" align="HStretch Bottom">
+			<State name="normal" offset="351 405 24 52"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 92 50 52" align="Left Bottom">
+			<State name="normal" offset="301 405 50 52"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 51 50 41" align="Left VStretch">
+			<State name="normal" offset="301 364 50 41"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="50 51 24 41" align="Stretch">
+			<State name="normal" offset="351 364 24 41"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK1" size="103 102" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 103 102" align="Stretch">
+			<State name="normal" offset="278 146 103 102"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame28" size="119 120" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 49 49" align="Left Top">
+			<State name="normal" offset="623 577 49 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="49 0 21 49" align="HStretch Top">
+			<State name="normal" offset="672 577 21 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="70 0 49 49" align="Right Top">
+			<State name="normal" offset="693 577 49 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="70 49 49 22" align="Right VStretch">
+			<State name="normal" offset="693 626 49 22"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="70 71 49 49" align="Right Bottom">
+			<State name="normal" offset="693 648 49 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="49 71 21 49" align="HStretch Bottom">
+			<State name="normal" offset="672 648 21 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 71 49 49" align="Left Bottom">
+			<State name="normal" offset="623 648 49 49"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 49 49 22" align="Left VStretch">
+			<State name="normal" offset="623 626 49 22"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="49 49 21 22" align="Stretch">
+			<State name="normal" offset="672 626 21 22"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button2" size="171 38" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 171 38" align="Stretch">
+			<State name="normal" offset="305 457 171 38"/>
+			<State name="highlighted" offset="305 457 171 38"/>
+			<State name="pushed" offset="927 1138 171 38"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame12" size="115 118" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 53 55" align="Left Top">
+			<State name="normal" offset="619 459 53 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="53 0 9 55" align="HStretch Top">
+			<State name="normal" offset="672 459 9 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="62 0 53 55" align="Right Top">
+			<State name="normal" offset="681 459 53 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="62 55 53 9" align="Right VStretch">
+			<State name="normal" offset="681 514 53 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="62 64 53 54" align="Right Bottom">
+			<State name="normal" offset="681 523 53 54"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="53 64 9 54" align="HStretch Bottom">
+			<State name="normal" offset="672 523 9 54"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 64 53 54" align="Left Bottom">
+			<State name="normal" offset="619 523 53 54"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 55 53 9" align="Left VStretch">
+			<State name="normal" offset="619 514 53 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="53 55 9 9" align="Stretch">
+			<State name="normal" offset="672 514 9 9"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK3" size="91 89" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 91 89" align="Stretch">
+			<State name="normal" offset="1351 1392 91 89"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK4" size="91 89" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 91 89" align="Stretch">
+			<State name="normal" offset="579 1427 91 89"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame27" size="74 71" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 31 30" align="Left Top">
+			<State name="normal" offset="424 386 31 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="31 0 12 30" align="HStretch Top">
+			<State name="normal" offset="455 386 12 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="43 0 31 30" align="Right Top">
+			<State name="normal" offset="467 386 31 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="43 30 31 7" align="Right VStretch">
+			<State name="normal" offset="467 416 31 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="43 37 31 34" align="Right Bottom">
+			<State name="normal" offset="467 423 31 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="31 37 12 34" align="HStretch Bottom">
+			<State name="normal" offset="455 423 12 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 37 31 34" align="Left Bottom">
+			<State name="normal" offset="424 423 31 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 30 31 7" align="Left VStretch">
+			<State name="normal" offset="424 416 31 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="31 30 12 7" align="Stretch">
+			<State name="normal" offset="455 416 12 7"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button3" size="127 50" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 127 50" align="Stretch">
+			<State name="normal" offset="898 1001 127 50"/>
+			<State name="highlighted" offset="898 1001 127 50"/>
+			<State name="pushed" offset="734 502 127 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame23" size="84 72" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 39" align="Left Top">
+			<State name="normal" offset="928 844 38 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 0 7 39" align="HStretch Top">
+			<State name="normal" offset="966 844 7 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="45 0 39 39" align="Right Top">
+			<State name="normal" offset="973 844 39 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="45 39 39 17" align="Right VStretch">
+			<State name="normal" offset="973 883 39 17"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="45 56 39 16" align="Right Bottom">
+			<State name="normal" offset="973 900 39 16"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 56 7 16" align="HStretch Bottom">
+			<State name="normal" offset="966 900 7 16"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 56 38 16" align="Left Bottom">
+			<State name="normal" offset="928 900 38 16"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 39 38 17" align="Left VStretch">
+			<State name="normal" offset="928 883 38 17"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 39 7 17" align="Stretch">
+			<State name="normal" offset="966 883 7 17"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroFrame2" size="78 85" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 44" align="Left Top">
+			<State name="normal" offset="868 738 27 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 0 13 44" align="HStretch Top">
+			<State name="normal" offset="895 738 13 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 0 38 44" align="Right Top">
+			<State name="normal" offset="908 738 38 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 44 38 7" align="Right VStretch">
+			<State name="normal" offset="908 782 38 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 51 38 34" align="Right Bottom">
+			<State name="normal" offset="908 789 38 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 51 13 34" align="HStretch Bottom">
+			<State name="normal" offset="895 789 13 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 51 27 34" align="Left Bottom">
+			<State name="normal" offset="868 789 27 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 44 27 7" align="Left VStretch">
+			<State name="normal" offset="868 782 27 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 44 13 7" align="Stretch">
+			<State name="normal" offset="895 782 13 7"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroFrame3" size="78 85" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 44" align="Left Top">
+			<State name="normal" offset="928 916 27 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 0 13 44" align="HStretch Top">
+			<State name="normal" offset="955 916 13 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 0 38 44" align="Right Top">
+			<State name="normal" offset="968 916 38 44"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 44 38 8" align="Right VStretch">
+			<State name="normal" offset="968 960 38 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="40 52 38 33" align="Right Bottom">
+			<State name="normal" offset="968 968 38 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 52 13 33" align="HStretch Bottom">
+			<State name="normal" offset="955 968 13 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 52 27 33" align="Left Bottom">
+			<State name="normal" offset="928 968 27 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 44 27 8" align="Left VStretch">
+			<State name="normal" offset="928 960 27 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="27 44 13 8" align="Stretch">
+			<State name="normal" offset="955 960 13 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_LimitTimeFree" size="74 75" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 74 75" align="Stretch">
+			<State name="normal" offset="1045 1063 74 75"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroFrame1" size="78 85" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 26 43" align="Left Top">
+			<State name="normal" offset="1895 1411 26 43"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 0 12 43" align="HStretch Top">
+			<State name="normal" offset="1921 1411 12 43"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 0 40 43" align="Right Top">
+			<State name="normal" offset="1933 1411 40 43"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 43 40 8" align="Right VStretch">
+			<State name="normal" offset="1933 1454 40 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 51 40 34" align="Right Bottom">
+			<State name="normal" offset="1933 1462 40 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 51 12 34" align="HStretch Bottom">
+			<State name="normal" offset="1921 1462 12 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 51 26 34" align="Left Bottom">
+			<State name="normal" offset="1895 1462 26 34"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 43 26 8" align="Left VStretch">
+			<State name="normal" offset="1895 1454 26 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 43 12 8" align="Stretch">
+			<State name="normal" offset="1921 1454 12 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Coin2" size="33 33" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 33" align="Stretch">
+			<State name="normal" offset="2009 1917 33 33"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Gem2" size="33 33" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 33" align="Stretch">
+			<State name="normal" offset="1306 1252 33 33"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_SkillFrame" size="50 51" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 50 51" align="Stretch">
+			<State name="normal" offset="946 793 50 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame17" size="31 70" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 7" align="Left Top">
+			<State name="normal" offset="1306 1285 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 16 7" align="HStretch Top">
+			<State name="normal" offset="1313 1285 16 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="23 0 8 7" align="Right Top">
+			<State name="normal" offset="1329 1285 8 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="23 7 8 55" align="Right VStretch">
+			<State name="normal" offset="1329 1292 8 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="23 62 8 8" align="Right Bottom">
+			<State name="normal" offset="1329 1347 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 62 16 8" align="HStretch Bottom">
+			<State name="normal" offset="1313 1347 16 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 62 7 8" align="Left Bottom">
+			<State name="normal" offset="1306 1347 7 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 7 55" align="Left VStretch">
+			<State name="normal" offset="1306 1292 7 55"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 7 16 55" align="Stretch">
+			<State name="normal" offset="1313 1292 16 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button4" size="84 39" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 84 39" align="Stretch">
+			<State name="normal" offset="869 699 84 39"/>
+			<State name="highlighted" offset="869 699 84 39"/>
+			<State name="pushed" offset="1337 1301 84 39"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_QuestionMark" size="131 133" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 131 133" align="Stretch">
+			<State name="normal" offset="488 468 131 133"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_CrossButton" size="55 55" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 55 55" align="Stretch">
+			<State name="normal" offset="1579 1339 55 55"/>
+			<State name="highlighted" offset="1579 1339 55 55"/>
+			<State name="pushed" offset="1560 1284 55 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Plus1" size="27 26" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 26" align="Stretch">
+			<State name="normal" offset="1369 1684 27 26"/>
+			<State name="highlighted" offset="1369 1684 27 26"/>
+			<State name="pushed" offset="1275 1222 27 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame15" size="41 47" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 7" align="Left Top">
+			<State name="normal" offset="381 146 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 27 7" align="HStretch Top">
+			<State name="normal" offset="388 146 27 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="34 0 7 7" align="Right Top">
+			<State name="normal" offset="415 146 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="34 7 7 32" align="Right VStretch">
+			<State name="normal" offset="415 153 7 32"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="34 39 7 8" align="Right Bottom">
+			<State name="normal" offset="415 185 7 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 39 27 8" align="HStretch Bottom">
+			<State name="normal" offset="388 185 27 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 39 7 8" align="Left Bottom">
+			<State name="normal" offset="381 185 7 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 7 32" align="Left VStretch">
+			<State name="normal" offset="381 153 7 32"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 7 27 32" align="Stretch">
+			<State name="normal" offset="388 153 27 32"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Plus2" size="48 48" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 48 48" align="Stretch">
+			<State name="normal" offset="1569 1394 48 48"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame14" size="36 52" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 5" align="Left Top">
+			<State name="normal" offset="2009 1996 7 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 21 5" align="HStretch Top">
+			<State name="normal" offset="2016 1996 21 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="28 0 8 5" align="Right Top">
+			<State name="normal" offset="2037 1996 8 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="28 5 8 41" align="Right VStretch">
+			<State name="normal" offset="2037 2001 8 41"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="28 46 8 6" align="Right Bottom">
+			<State name="normal" offset="2037 2042 8 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 46 21 6" align="HStretch Bottom">
+			<State name="normal" offset="2016 2042 21 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 46 7 6" align="Left Bottom">
+			<State name="normal" offset="2009 2042 7 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 5 7 41" align="Left VStretch">
+			<State name="normal" offset="2009 2001 7 41"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 5 21 41" align="Stretch">
+			<State name="normal" offset="2016 2001 21 41"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="7 6 21 40" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Lock" size="35 46" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 35 46" align="Stretch">
+			<State name="normal" offset="2009 1950 35 46"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Disabed" size="40 39" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 40 39" align="Stretch">
+			<State name="normal" offset="534 284 40 39"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK7" size="22 25" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 6 6" align="Left Top">
+			<State name="normal" offset="712 434 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 0 7 6" align="Right Top">
+			<State name="normal" offset="727 434 7 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 6 7 12" align="Right VStretch">
+			<State name="normal" offset="727 440 7 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 18 7 7" align="Right Bottom">
+			<State name="normal" offset="727 452 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 18 9 7" align="HStretch Bottom">
+			<State name="normal" offset="718 452 9 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 18 6 7" align="Left Bottom">
+			<State name="normal" offset="712 452 6 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 6 6 12" align="Left VStretch">
+			<State name="normal" offset="712 440 6 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 6 9 12" align="Stretch">
+			<State name="normal" offset="718 440 9 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_WeekFree" size="43 26" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 43 26" align="Stretch">
+			<State name="normal" offset="1098 1150 43 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_DayFree" size="40 23" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 40 23" align="Stretch">
+			<State name="normal" offset="431 253 40 23"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK5" size="40 22" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="30 0 10 22" align="Right VStretch">
+			<State name="normal" offset="564 262 10 22"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 9 22" align="Left VStretch">
+			<State name="normal" offset="534 262 9 22"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="9 0 21 22" align="Stretch">
+			<State name="normal" offset="543 262 21 22"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="9 2 21 18" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Seporator1" size="48 3" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="43 0 5 3" align="Right VStretch">
+			<State name="normal" offset="1685 1644 5 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 4 3" align="Left VStretch">
+			<State name="normal" offset="1642 1644 4 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 0 39 3" align="Stretch">
+			<State name="normal" offset="1646 1644 39 3"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Frame11" size="26 23" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 6 5" align="Left Top">
+			<State name="normal" offset="1697 1397 6 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 14 5" align="HStretch Top">
+			<State name="normal" offset="1703 1397 14 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 0 6 5" align="Right Top">
+			<State name="normal" offset="1717 1397 6 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 5 6 11" align="Right VStretch">
+			<State name="normal" offset="1717 1402 6 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 16 6 7" align="Right Bottom">
+			<State name="normal" offset="1717 1413 6 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 16 14 7" align="HStretch Bottom">
+			<State name="normal" offset="1703 1413 14 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 16 6 7" align="Left Bottom">
+			<State name="normal" offset="1697 1413 6 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 5 6 11" align="Left VStretch">
+			<State name="normal" offset="1697 1402 6 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 5 14 11" align="Stretch">
+			<State name="normal" offset="1703 1402 14 11"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BK6" size="30 24" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 6 6" align="Left Top">
+			<State name="normal" offset="898 977 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 18 6" align="HStretch Top">
+			<State name="normal" offset="904 977 18 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="24 0 6 6" align="Right Top">
+			<State name="normal" offset="922 977 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="24 6 6 18" align="Right VStretch">
+			<State name="normal" offset="922 983 6 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 6 6 18" align="Left VStretch">
+			<State name="normal" offset="898 983 6 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 6 18 18" align="Stretch">
+			<State name="normal" offset="904 983 18 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BagHeroName" size="136 27" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 136 27" align="Stretch">
+			<State name="normal" offset="1139 1221 136 27"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="10 3 115 17" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="unnamed_1" size="29 29" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 29 29" align="Stretch">
+			<State name="normal" offset="513 1053 29 29"/>
+			<State name="highlighted" offset="542 1053 29 29"/>
+			<State name="pushed" offset="1969 1562 29 29"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button11" size="127 50" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 127 50" align="Stretch">
+			<State name="normal" offset="1442 1392 127 50"/>
+			<State name="highlighted" offset="1442 1392 127 50"/>
+			<State name="pushed" offset="1152 1171 127 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button10" size="84 35" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 84 35" align="Stretch">
+			<State name="normal" offset="479 323 84 35"/>
+			<State name="highlighted" offset="479 323 84 35"/>
+			<State name="pushed" offset="1421 1305 84 35"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="3 3 78 29" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Search" size="43 39" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 43 39" align="Stretch">
+			<State name="normal" offset="946 754 43 39"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_BlackBG" size="16 16" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1 1" align="Left Top">
+			<State name="normal" offset="946 738 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 0 14 1" align="HStretch Top">
+			<State name="normal" offset="947 738 14 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 0 1 1" align="Right Top">
+			<State name="normal" offset="961 738 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 1 1 14" align="Right VStretch">
+			<State name="normal" offset="961 739 1 14"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="15 15 1 1" align="Right Bottom">
+			<State name="normal" offset="961 753 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 15 14 1" align="HStretch Bottom">
+			<State name="normal" offset="947 753 14 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 15 1 1" align="Left Bottom">
+			<State name="normal" offset="946 753 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 1 1 14" align="Left VStretch">
+			<State name="normal" offset="946 739 1 14"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 1 14 14" align="Stretch">
+			<State name="normal" offset="947 739 14 14"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button8" size="114 52" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 114 52" align="Stretch">
+			<State name="normal" offset="498 416 114 52"/>
+			<State name="pushed" offset="734 450 114 52"/>
+			<State name="normal_checked" offset="742 552 114 52"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="10 6 94 39" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_HeroFrameBK" size="40 14" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 2 2" align="Left Top">
+			<State name="normal" offset="209 667 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 0 36 2" align="HStretch Top">
+			<State name="normal" offset="211 667 36 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 0 2 2" align="Right Top">
+			<State name="normal" offset="247 667 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 2 2 10" align="Right VStretch">
+			<State name="normal" offset="247 669 2 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="38 12 2 2" align="Right Bottom">
+			<State name="normal" offset="247 679 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 12 36 2" align="HStretch Bottom">
+			<State name="normal" offset="211 679 36 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 12 2 2" align="Left Bottom">
+			<State name="normal" offset="209 679 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 2 2 10" align="Left VStretch">
+			<State name="normal" offset="209 669 2 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 2 36 10" align="Stretch">
+			<State name="normal" offset="211 669 36 10"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_TalentBG" size="146 148" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 146 148" align="Stretch">
+			<State name="normal" offset="645 829 146 148"/>
+			<State name="highlighted" offset="645 829 146 148"/>
+			<State name="pushed" offset="480 737 146 148"/>
+			<State name="normal_checked" offset="480 737 146 148"/>
+			<State name="highlighted_checked" offset="480 737 146 148"/>
+			<State name="pushed_checked" offset="480 737 146 148"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_QuestionMark2" size="45 65" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 45 65" align="Stretch">
+			<State name="normal" offset="1306 1355 45 65"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_CheckBox" size="27 24" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 24" align="Left VStretch">
+			<State name="normal" offset="1643 1396 27 24"/>
+			<State name="pushed" offset="1670 1396 27 24"/>
+			<State name="normal_checked" offset="1670 1396 27 24"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="20 3 1 17" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button12" size="114 52" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 114 52" align="Stretch">
+			<State name="normal" offset="1351 1340 114 52"/>
+			<State name="highlighted" offset="1351 1340 114 52"/>
+			<State name="pushed" offset="1465 1340 114 52"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="5 4 104 43" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_Button13" size="114 52" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 114 52" align="Stretch">
+			<State name="normal" offset="742 552 114 52"/>
+			<State name="highlighted" offset="742 552 114 52"/>
+			<State name="pushed" offset="734 450 114 52"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="4 3 106 45" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_AttackersPanel" size="278 183" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 278 183" align="Stretch">
+			<State name="normal" offset="0 77 278 183"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="HallSkins_ChooseHeroBG" size="579 434" texture="MyGUI_HallSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 579 434" align="Stretch">
+			<State name="normal" offset="0 1082 579 434"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

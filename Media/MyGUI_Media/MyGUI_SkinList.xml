@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="List">
+		<List file="MyGUI_GameSkins.xml"/>
+		<List file="MyGUI_GameSkins_20130506.xml"/>
+		<List file="MyGUI_GameSkins_20140428.xml"/>
+		<List file="MyGUI_GameSkins_20140430.xml"/>
+		<List file="MyGUI_ShopSkins.xml"/>
+		<List file="MyGUI_HallSkins.xml"/>
+		<List file="MyGUI_LoginSkins.xml"/>
+		<List file="MyGUI_GameTemplates.xml"/>
+		<List file="MyGUI_GameMiscSkins.xml"/>
+</MyGUI>

@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="GameSkins_TeamateHP" size="130 16" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 130 16" align="Stretch">
+			<State name="normal" offset="477 248 130 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_GuardFrame" size="36 36" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 36 36" align="Stretch">
+			<State name="normal" offset="454 126 36 36"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_OpponentHP" size="130 16" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 130 16" align="Stretch">
+			<State name="normal" offset="319 1 130 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Num1" size="18 25" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 25" align="Stretch">
+			<State name="normal" offset="370 503 18 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Num2" size="18 25" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 25" align="Stretch">
+			<State name="normal" offset="896 628 18 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Num3" size="18 25" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 25" align="Stretch">
+			<State name="normal" offset="815 742 18 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_CardNum" size="26 26" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 26 26" align="Stretch">
+			<State name="normal" offset="477 338 26 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Num4" size="18 25" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 25" align="Stretch">
+			<State name="normal" offset="370 553 18 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_HeroAttackBack" size="109 23" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 109 23" align="Stretch">
+			<State name="normal" offset="477 225 109 23"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_HPFrame" size="134 20" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 134 20" align="Stretch">
+			<State name="normal" offset="0 0 134 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Num5" size="18 25" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 25" align="Stretch">
+			<State name="normal" offset="370 528 18 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_GuardShield" size="13 12" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 13 12" align="Stretch">
+			<State name="normal" offset="896 616 13 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_HeroFrame" size="64 64" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 64 64" align="Stretch">
+			<State name="normal" offset="839 552 64 64"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_GuardBack" size="30 30" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 30 30" align="Stretch">
+			<State name="normal" offset="454 30 30 30"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_HeroAttack" size="50 18" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 50 18" align="Stretch">
+			<State name="normal" offset="759 347 50 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_HeroBack" size="58 58" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 58 58" align="Stretch">
+			<State name="normal" offset="840 381 58 58"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_MainHeroRing" size="119 88" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 119 88" align="Stretch">
+			<State name="normal" offset="626 498 119 88"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_GuardRing" size="92 68" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 92 68" align="Stretch">
+			<State name="normal" offset="278 510 92 68"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_TeamateHPLeftHead" size="12 16" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 12 16" align="Stretch">
+			<State name="normal" offset="503 348 12 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_MsgBtn" size="49 49" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 49 49" align="Stretch">
+			<State name="disabled" offset="839 503 49 49"/>
+			<State name="normal" offset="888 503 49 49"/>
+			<State name="highlighted" offset="888 503 49 49"/>
+			<State name="pushed" offset="904 454 49 49"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_LockTalent" size="47 46" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 47 46" align="Stretch">
+			<State name="normal" offset="438 162 47 46"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopBtn" size="67 67" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 67 67" align="Stretch">
+			<State name="disabled" offset="829 616 67 67"/>
+			<State name="normal" offset="707 274 67 67"/>
+			<State name="highlighted" offset="707 274 67 67"/>
+			<State name="pushed" offset="707 207 67 67"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_AttackText" size="41 20" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 41 20" align="Stretch">
+			<State name="normal" offset="134 0 41 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RangeText" size="41 20" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 41 20" align="Stretch">
+			<State name="normal" offset="175 0 41 20"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_AttackIcon" size="30 30" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 30 30" align="Stretch">
+			<State name="normal" offset="454 0 30 30"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_TopFrame" size="1024 123" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 123" align="Stretch">
+			<State name="normal" offset="0 901 1024 123"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_BotFrame1" size="410 11" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 410 11" align="Stretch">
+			<State name="normal" offset="405 742 410 11"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_BotFrame2" size="1024 41" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1024 41" align="Stretch">
+			<State name="normal" offset="0 860 1024 41"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RangeIcon" size="30 30" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 30 30" align="Stretch">
+			<State name="normal" offset="896 653 30 30"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_OperateArea" size="158 157" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 158 157" align="Stretch">
+			<State name="normal" offset="515 338 158 157"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ClockHand" size="25 55" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 25 55" align="Stretch">
+			<State name="normal" offset="277 347 25 55"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ClockFrame" size="83 84" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 83 84" align="Stretch">
+			<State name="normal" offset="833 683 83 84"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopTexture" size="309 61" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 309 61" align="Stretch">
+			<State name="normal" offset="405 681 309 61"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopSmallBar" size="222 5" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 222 5" align="Stretch">
+			<State name="normal" offset="0 28 222 5"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_TabCover" size="80 126" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 80 126" align="Stretch">
+			<State name="normal" offset="939 734 80 126"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopLevelFrame" size="119 43" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 10 10" align="Left Top">
+			<State name="normal" offset="714 699 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 0 99 10" align="HStretch Top">
+			<State name="normal" offset="724 699 99 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 0 10 10" align="Right Top">
+			<State name="normal" offset="823 699 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 10 10 23" align="Right VStretch">
+			<State name="normal" offset="823 709 10 23"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="109 33 10 10" align="Right Bottom">
+			<State name="normal" offset="823 732 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 33 99 10" align="HStretch Bottom">
+			<State name="normal" offset="724 732 99 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 33 10 10" align="Left Bottom">
+			<State name="normal" offset="714 732 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 10 10 23" align="Left VStretch">
+			<State name="normal" offset="714 709 10 23"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 10 99 23" align="Stretch">
+			<State name="normal" offset="724 709 99 23"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopNameLabelBG" size="76 21" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 30 9" align="Left Top">
+			<State name="normal" offset="759 365 30 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="30 0 16 9" align="HStretch Top">
+			<State name="normal" offset="789 365 16 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="46 0 30 9" align="Right Top">
+			<State name="normal" offset="805 365 30 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="46 9 30 3" align="Right VStretch">
+			<State name="normal" offset="805 374 30 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="46 12 30 9" align="Right Bottom">
+			<State name="normal" offset="805 377 30 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="30 12 16 9" align="HStretch Bottom">
+			<State name="normal" offset="789 377 16 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 12 30 9" align="Left Bottom">
+			<State name="normal" offset="759 377 30 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 9 30 3" align="Left VStretch">
+			<State name="normal" offset="759 374 30 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="30 9 16 3" align="Stretch">
+			<State name="normal" offset="789 374 16 3"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopItemTextBG" size="87 115" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="65 0 22 115" align="Right VStretch">
+			<State name="normal" offset="818 386 22 115"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 21 115" align="Left VStretch">
+			<State name="normal" offset="753 386 21 115"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="21 0 44 115" align="Stretch">
+			<State name="normal" offset="774 386 44 115"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Unavailable" size="64 64" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 64 64" align="Stretch">
+			<State name="normal" offset="840 439 64 64"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopHead" size="813 107" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 813 107" align="Stretch">
+			<State name="normal" offset="0 753 813 107"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopButtonDec" size="405 65" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 405 65" align="Stretch">
+			<State name="normal" offset="0 688 405 65"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RedButton" size="239 93" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 239 93" align="Stretch">
+			<State name="normal" offset="0 33 239 93"/>
+			<State name="highlighted" offset="0 33 239 93"/>
+			<State name="pushed" offset="388 588 239 93"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="25 20 189 49" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_BlueButton" size="238 93" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 238 93" align="Stretch">
+			<State name="normal" offset="388 495 238 93"/>
+			<State name="highlighted" offset="388 495 238 93"/>
+			<State name="pushed" offset="277 402 238 93"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="25 20 189 49" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopDecoratorBG" size="165 156" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 79 72" align="Left Top">
+			<State name="normal" offset="312 246 79 72"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="79 0 4 72" align="HStretch Top">
+			<State name="normal" offset="391 246 4 72"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="83 0 82 72" align="Right Top">
+			<State name="normal" offset="395 246 82 72"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="83 72 82 4" align="Right VStretch">
+			<State name="normal" offset="395 318 82 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="83 76 82 80" align="Right Bottom">
+			<State name="normal" offset="395 322 82 80"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="79 76 4 80" align="HStretch Bottom">
+			<State name="normal" offset="391 322 4 80"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 76 79 80" align="Left Bottom">
+			<State name="normal" offset="312 322 79 80"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 72 79 4" align="Left VStretch">
+			<State name="normal" offset="312 318 79 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="79 72 4 4" align="Stretch">
+			<State name="normal" offset="391 318 4 4"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopFrameBG" size="107 104" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 11 31" align="Left Top">
+			<State name="normal" offset="722 595 11 31"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 0 84 31" align="HStretch Top">
+			<State name="normal" offset="733 595 84 31"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="95 0 12 31" align="Right Top">
+			<State name="normal" offset="817 595 12 31"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="95 31 12 54" align="Right VStretch">
+			<State name="normal" offset="817 626 12 54"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="95 85 12 19" align="Right Bottom">
+			<State name="normal" offset="817 680 12 19"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 85 84 19" align="HStretch Bottom">
+			<State name="normal" offset="733 680 84 19"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 85 11 19" align="Left Bottom">
+			<State name="normal" offset="722 680 11 19"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 31 11 54" align="Left VStretch">
+			<State name="normal" offset="722 626 11 54"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 31 84 54" align="Stretch">
+			<State name="normal" offset="733 626 84 54"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="2 2 12 12" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopItemBG" size="110 110" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 110 110" align="Stretch">
+			<State name="normal" offset="278 578 110 110"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopItemFrame" size="86 31" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 10 8" align="Left Top">
+			<State name="normal" offset="673 341 10 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 0 66 8" align="HStretch Top">
+			<State name="normal" offset="683 341 66 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="76 0 10 8" align="Right Top">
+			<State name="normal" offset="749 341 10 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="76 8 10 10" align="Right VStretch">
+			<State name="normal" offset="749 349 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="76 18 10 13" align="Right Bottom">
+			<State name="normal" offset="749 359 10 13"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 18 66 13" align="HStretch Bottom">
+			<State name="normal" offset="683 359 66 13"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 18 10 13" align="Left Bottom">
+			<State name="normal" offset="673 359 10 13"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 10 10" align="Left VStretch">
+			<State name="normal" offset="673 349 10 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="10 8 66 10" align="Stretch">
+			<State name="normal" offset="683 349 66 10"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="2 2 12 12" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopCoin" size="33 33" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 33" align="Stretch">
+			<State name="normal" offset="454 60 33 33"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_ShopJewel" size="33 33" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 33" align="Stretch">
+			<State name="normal" offset="454 93 33 33"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RecruitHeroBG" size="156 216" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 156 216" align="Stretch">
+			<State name="normal" offset="0 126 156 216"/>
+			<State name="highlighted" offset="0 126 156 216"/>
+			<State name="pushed" offset="156 126 156 216"/>
+			<State name="normal_checked" offset="156 126 156 216"/>
+			<State name="highlighted_checked" offset="156 126 156 216"/>
+			<State name="pushed_checked" offset="156 126 156 216"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="32 4 82 20" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+			<State name="highlighted_checked" colour="1 1 1" shift="0"/>
+			<State name="pushed_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RecruitDescBG" size="135 66" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 135 66" align="Stretch">
+			<State name="normal" offset="477 264 135 66"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_AddFriend" size="40 39" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 40 39" align="Stretch">
+			<State name="normal" offset="774 308 40 39"/>
+			<State name="highlighted" offset="774 308 40 39"/>
+			<State name="pushed" offset="774 269 40 39"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_SelfTips" size="38 38" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 38" align="Stretch">
+			<State name="normal" offset="477 364 38 38"/>
+			<State name="highlighted" offset="477 364 38 38"/>
+			<State name="pushed" offset="438 208 38 38"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_OtherTips" size="38 38" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 38" align="Stretch">
+			<State name="normal" offset="774 231 38 38"/>
+			<State name="highlighted" offset="774 231 38 38"/>
+			<State name="pushed" offset="774 193 38 38"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RecruitAttack" size="21 21" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 21 21" align="Stretch">
+			<State name="normal" offset="916 746 21 21"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="2 2 16 16" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_RecruitRange" size="21 21" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 21 21" align="Stretch">
+			<State name="normal" offset="586 227 21 21"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="2 2 16 16" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_TitleRight" size="218 8" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 218 8" align="Stretch">
+			<State name="normal" offset="477 330 218 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_TitleLeft" size="218 8" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 218 8" align="Stretch">
+			<State name="normal" offset="0 20 218 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_PortraitBG" size="135 136" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 135 136" align="Stretch">
+			<State name="normal" offset="319 17 135 136"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_InfoBGR" size="126 93" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 110 8" align="Left Top">
+			<State name="normal" offset="312 153 110 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="110 0 14 8" align="HStretch Top">
+			<State name="normal" offset="422 153 14 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="124 0 2 8" align="Right Top">
+			<State name="normal" offset="436 153 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="124 8 2 77" align="Right VStretch">
+			<State name="normal" offset="436 161 2 77"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="124 85 2 8" align="Right Bottom">
+			<State name="normal" offset="436 238 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="110 85 14 8" align="HStretch Bottom">
+			<State name="normal" offset="422 238 14 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 85 110 8" align="Left Bottom">
+			<State name="normal" offset="312 238 110 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 110 77" align="Left VStretch">
+			<State name="normal" offset="312 161 110 77"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="110 8 14 77" align="Stretch">
+			<State name="normal" offset="422 161 14 77"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_InfoProgressBar" size="24 18" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 24 18" align="Stretch">
+			<State name="normal" offset="809 347 24 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_Shadow" size="10 10" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 1 1" align="Left Top">
+			<State name="normal" offset="829 606 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 0 8 1" align="HStretch Top">
+			<State name="normal" offset="830 606 8 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="9 0 1 1" align="Right Top">
+			<State name="normal" offset="838 606 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="9 1 1 8" align="Right VStretch">
+			<State name="normal" offset="838 607 1 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="9 9 1 1" align="Right Bottom">
+			<State name="normal" offset="838 615 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 9 8 1" align="HStretch Bottom">
+			<State name="normal" offset="830 615 8 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 9 1 1" align="Left Bottom">
+			<State name="normal" offset="829 615 1 1"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 1 1 8" align="Left VStretch">
+			<State name="normal" offset="829 607 1 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="1 1 8 8" align="Stretch">
+			<State name="normal" offset="830 607 8 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_InfoBGL" size="126 93" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 2 8" align="Left Top">
+			<State name="normal" offset="813 767 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 0 14 8" align="HStretch Top">
+			<State name="normal" offset="815 767 14 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 0 110 8" align="Right Top">
+			<State name="normal" offset="829 767 110 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 8 110 77" align="Right VStretch">
+			<State name="normal" offset="829 775 110 77"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 85 110 8" align="Right Bottom">
+			<State name="normal" offset="829 852 110 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 85 14 8" align="HStretch Bottom">
+			<State name="normal" offset="815 852 14 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 85 2 8" align="Left Bottom">
+			<State name="normal" offset="813 852 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 2 77" align="Left VStretch">
+			<State name="normal" offset="813 775 2 77"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 8 14 77" align="Stretch">
+			<State name="normal" offset="815 775 14 77"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_SkillBtn" size="95 95" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 95 95" align="Stretch">
+			<State name="normal" offset="627 586 95 95"/>
+			<State name="highlighted" offset="627 586 95 95"/>
+			<State name="pushed" offset="612 235 95 95"/>
+			<State name="normal_checked" offset="612 235 95 95"/>
+			<State name="highlighted_checked" offset="612 235 95 95"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_VS" size="277 163" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 277 163" align="Stretch">
+			<State name="normal" offset="0 342 277 163"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_BK1" size="94 94" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 94 94" align="Stretch">
+			<State name="normal" offset="745 501 94 94"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="GameSkins_AttackerPanel" size="278 183" texture="MyGUI_GameSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 278 183" align="Stretch">
+			<State name="normal" offset="0 505 278 183"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

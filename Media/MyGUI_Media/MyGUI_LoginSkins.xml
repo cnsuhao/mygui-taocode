@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="LoginSkins_1" size="420 10" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="244 0 176 10" align="Right VStretch">
+			<State name="normal" offset="244 62 176 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 176 10" align="Left VStretch">
+			<State name="normal" offset="0 62 176 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="176 0 68 10" align="Stretch">
+			<State name="normal" offset="176 62 68 10"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_2" size="295 70" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 2 2" align="Left Top">
+			<State name="normal" offset="0 126 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 0 291 2" align="HStretch Top">
+			<State name="normal" offset="2 126 291 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="293 0 2 2" align="Right Top">
+			<State name="normal" offset="293 126 2 2"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="293 2 2 60" align="Right VStretch">
+			<State name="normal" offset="293 128 2 60"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="293 62 2 8" align="Right Bottom">
+			<State name="normal" offset="293 188 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 62 291 8" align="HStretch Bottom">
+			<State name="normal" offset="2 188 291 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 62 2 8" align="Left Bottom">
+			<State name="normal" offset="0 188 2 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 2 2 60" align="Left VStretch">
+			<State name="normal" offset="0 128 2 60"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="2 2 291 60" align="Stretch">
+			<State name="normal" offset="2 128 291 60"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_3" size="219 211" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="0 197 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 203 8" align="HStretch Top">
+			<State name="normal" offset="8 197 203 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="211 0 8 8" align="Right Top">
+			<State name="normal" offset="211 197 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="211 8 8 195" align="Right VStretch">
+			<State name="normal" offset="211 205 8 195"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="211 203 8 8" align="Right Bottom">
+			<State name="normal" offset="211 400 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 203 203 8" align="HStretch Bottom">
+			<State name="normal" offset="8 400 203 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 203 8 8" align="Left Bottom">
+			<State name="normal" offset="0 400 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 195" align="Left VStretch">
+			<State name="normal" offset="0 205 8 195"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 8 203 195" align="Stretch">
+			<State name="normal" offset="8 205 203 195"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_4" size="138 36" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 3 4" align="Left Top">
+			<State name="normal" offset="0 25 3 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 0 132 4" align="HStretch Top">
+			<State name="normal" offset="3 25 132 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="135 0 3 4" align="Right Top">
+			<State name="normal" offset="135 25 3 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="135 4 3 28" align="Right VStretch">
+			<State name="normal" offset="135 29 3 28"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="135 32 3 4" align="Right Bottom">
+			<State name="normal" offset="135 57 3 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 32 132 4" align="HStretch Bottom">
+			<State name="normal" offset="3 57 132 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 32 3 4" align="Left Bottom">
+			<State name="normal" offset="0 57 3 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 4 3 28" align="Left VStretch">
+			<State name="normal" offset="0 29 3 28"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 4 132 28" align="Stretch">
+			<State name="normal" offset="3 29 132 28"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="6 4 126 28" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_7" size="27 24" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 24" align="Left Top">
+			<State name="disabled" offset="459 384 27 24"/>
+			<State name="normal" offset="459 384 27 24"/>
+			<State name="highlighted" offset="459 384 27 24"/>
+			<State name="pushed" offset="459 384 27 24"/>
+			<State name="disabled_checked" offset="0 0 27 24"/>
+			<State name="normal_checked" offset="0 0 27 24"/>
+			<State name="highlighted_checked" offset="0 0 27 24"/>
+			<State name="pushed_checked" offset="0 0 27 24"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="20 3 1 17" align="Stretch">
+			<State name="disabled" colour="1 1 1" shift="0"/>
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="highlighted" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+			<State name="disabled_checked" colour="1 1 1" shift="0"/>
+			<State name="normal_checked" colour="1 1 1" shift="0"/>
+			<State name="highlighted_checked" colour="1 1 1" shift="0"/>
+			<State name="pushed_checked" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_10" size="16 16" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 16 16" align="Stretch">
+			<State name="normal" offset="220 204 16 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_BlueButton" size="238 93" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 238 93" align="Stretch">
+			<State name="normal" offset="220 315 238 93"/>
+			<State name="pushed" offset="220 221 238 93"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="24 19 192 51" align="Stretch">
+			<State name="normal" colour="1 1 1" shift="0"/>
+			<State name="pushed" colour="1 1 1" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="LoginSkins_EditBG" size="363 52" texture="MyGUI_LoginSkinsImg.png">
+		<BasisSkin type="SubSkin" offset="0 0 363 52" align="Stretch">
+			<State name="normal" offset="0 73 363 52"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

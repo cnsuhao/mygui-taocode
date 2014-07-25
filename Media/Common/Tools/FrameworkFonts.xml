@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceTrueTypeFont" name="Simhei"> 
+    <Property key="Source" value="simhei.ttf"/> 
+    <Property key="Size" value="20"/> 
+    <Property key="Resolution" value="50"/> 
+    <Property key="Antialias" value="false"/> 
+    <Property key="SpaceWidth" value="4"/> 
+    <Property key="TabWidth" value="8"/> 
+    <Property key="CursorWidth" value="2"/> 
+    <Property key="Distance" value="1"/> 
+    <Property key="OffsetHeight" value="0"/> 
+    <Codes> 
+       <!--一般unicode码是十六进制的，这里使用的是转换为十进制的--> 
+       <!--键盘上所有的英文字母、标点、数字--> 
+       <Code range="33 126"/> 
+       <!--通用标点--> 
+       <!--单引号--> 
+       <Code range="8216 8217"/> 
+       <!--双引号--> 
+       <Code range="8220 8221"/> 
+       <!--连接号，破折号--> 
+       <Code range="8211 8212"/> 
+       <!--省略号--> 
+       <Code range="8230"/> 
+       <!--CJK标点符号--> 
+       <!--顿号，句号--> 
+       <Code range="12289 12290"/> 
+       <!--单书名号，双书名号，竖版单引号，大扩号--> 
+       <Code range="12296 12303"/> 
+       <!--小括号--> 
+       <Code range="12308 12309"/> 
+       <!--中括号--> 
+       <Code range="12304 12305"/> 
+       <!--ASCII全角,全角中英文标点--> 
+       <Code range="65281 65374"/> 
+       <!--unicode汉字范围--> 
+       <Code range="19968 40869"/> 
+       <Code hide="128"/> 
+       <Code hide="1026 1039"/> 
+       <Code hide="1104"/> 
+    </Codes> 
+  </Resource>
+</MyGUI>
