@@ -1,0 +1,37 @@
+set (HEADER_FILES
+  ControlPanel.h
+  DemoKeeper.h
+  EnemyPanel.h
+  FriendPanel.h
+  PointerContextManager.h
+  ResourcePointerContext.h
+)
+set (SOURCE_FILES
+  ../../Common/Base/BaseResource.rc
+  ControlPanel.cpp
+  DemoKeeper.cpp
+  EnemyPanel.cpp
+  FriendPanel.cpp
+  PointerContextManager.cpp
+  ResourcePointerContext.cpp
+)
+SOURCE_GROUP("Header Files" FILES
+  ControlPanel.h
+  DemoKeeper.h
+  EnemyPanel.h
+  FriendPanel.h
+  PointerContextManager.h
+  ResourcePointerContext.h
+)
+SOURCE_GROUP("Resources" FILES
+  ../../Common/Base/BaseResource.rc
+  CMakeLists.txt
+)
+SOURCE_GROUP("Source Files" FILES
+  ControlPanel.cpp
+  DemoKeeper.cpp
+  EnemyPanel.cpp
+  FriendPanel.cpp
+  PointerContextManager.cpp
+  ResourcePointerContext.cpp
+)

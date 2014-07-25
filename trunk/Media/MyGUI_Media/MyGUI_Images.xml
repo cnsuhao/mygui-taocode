@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceImageSet" name="ForceImage">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20130506.png" size="44 44">
+			<Index name="IR_King" rate="0">
+				<Frame point="369 343"/>
+			</Index>
+			<Index name="IR_Knight" rate="0">
+				<Frame point="272 343"/>
+			</Index>
+			<Index name="IR_Rebel" rate="0">
+				<Frame point="321 343"/>
+			</Index>
+			<Index name="IR_Traitor" rate="0">
+				<Frame point="418 342"/>
+			</Index>
+			<Index name="IR_Unknow" rate="0">
+				<Frame point="467 343"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="BuffTypeImage">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20130506.png" size="17 17">
+			<Index name="IR_Neutral" rate="0">
+				<Frame point="491 41"/>
+			</Index>
+			<Index name="IR_Positive" rate="0">
+				<Frame point="491 22"/>
+			</Index>
+			<Index name="IR_Negative" rate="0">
+				<Frame point="491 3"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="BattleMsgArrowImage">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20130506.png" size="8 24">
+			<Index name="IR_Left" rate="0">
+				<Frame point="502 60"/>
+			</Index>
+			<Index name="IR_Right" rate="0">
+				<Frame point="490 60"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="ResTypeImage">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20130506.png" size="35 35">
+			<Index name="IR_Food" rate="0">
+				<Frame point="678 641"/>
+			</Index>
+			<Index name="IR_Gold" rate="0">
+				<Frame point="628 595"/>
+			</Index>
+			<Index name="IR_Gem" rate="0">
+				<Frame point="721 640"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="EquipImage">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20130506.png" size="38 39">
+			<Index name="IR_cj" rate="0">
+				<Frame point="173 567"/>
+			</Index>
+			<Index name="IR_ztj" rate="0">
+				<Frame point="213 553"/>
+			</Index>
+			<Index name="IR_srg" rate="0">
+				<Frame point="214 512"/>
+			</Index>
+			<Index name="IR_lsc" rate="0">
+				<Frame point="173 526"/>
+			</Index>
+			<Index name="IR_yhzq" rate="0">
+				<Frame point="61 538"/>
+			</Index>
+			<Index name="IR_hdmj" rate="0">
+				<Frame point="213 594"/>
+			</Index>
+			<Index name="IR_pj" rate="0">
+				<Frame point="101 584"/>
+			</Index>
+			<Index name="IR_tpj" rate="0">
+				<Frame point="61 579"/>
+			</Index>
+			<Index name="IR_slj" rate="0">
+				<Frame point="2 596"/>
+			</Index>
+			<Index name="IR_wsp" rate="0">
+				<Frame point="42 620"/>
+			</Index>
+			<Index name="IR_llkj" rate="0">
+				<Frame point="2 637"/>
+			</Index>
+			<Index name="IR_yzfp" rate="0">
+				<Frame point="141 608"/>
+			</Index>
+			<Index name="IR_tj" rate="0">
+				<Frame point="2 678"/>
+			</Index>
+			<Index name="IR_bcy" rate="0">
+				<Frame point="82 625"/>
+			</Index>
+			<Index name="IR_sxj" rate="0">
+				<Frame point="42 702"/>
+			</Index>
+			<Index name="IR_jxl" rate="0">
+				<Frame point="42 661"/>
+			</Index>
+			<Index name="IR_slmj" rate="0">
+				<Frame point="181 635"/>
+			</Index>
+			<Index name="IR_zzzh" rate="0">
+				<Frame point="2 719"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="CountDownImage">
+		<Group name="Game" texture="GameSkins_CountDown.png" size="90 90">
+			<Index name="IR_CountDown" rate="0.1">
+				<Frame point="1380 92"/>
+				<Frame point="1288 0"/>
+				<Frame point="1288 92"/>
+				<Frame point="1196 0"/>
+				<Frame point="1196 92"/>
+				<Frame point="1104 0"/>
+				<Frame point="1104 92"/>
+				<Frame point="1012 0"/>
+				<Frame point="920 0"/>
+				<Frame point="920 92"/>
+				<Frame point="828 0"/>
+				<Frame point="828 92"/>
+				<Frame point="736 0"/>
+				<Frame point="736 92"/>
+				<Frame point="644 0"/>
+				<Frame point="644 92"/>
+				<Frame point="552 0"/>
+				<Frame point="552 92"/>
+				<Frame point="460 92"/>
+				<Frame point="368 0"/>
+				<Frame point="368 92"/>
+				<Frame point="276 0"/>
+				<Frame point="276 92"/>
+				<Frame point="184 0"/>
+				<Frame point="184 92"/>
+				<Frame point="92 0"/>
+				<Frame point="92 92"/>
+				<Frame point="0 0"/>
+				<Frame point="1656 92"/>
+				<Frame point="1564 0"/>
+				<Frame point="1564 92"/>
+				<Frame point="1472 0"/>
+				<Frame point="1472 92"/>
+				<Frame point="1380 0"/>
+				<Frame point="1012 92"/>
+				<Frame point="460 0"/>
+				<Frame point="0 92"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="PlayerStateImage">
+		<Group name="Game" texture="MyGUI_HallSkinsImg.png" size="29 29">
+			<Index name="IR_Free" rate="0">
+				<Frame point="542 1052"/>
+			</Index>
+			<Index name="IR_Busy" rate="0">
+				<Frame point="1969 1561"/>
+			</Index>
+			<Index name="IR_Offline" rate="0">
+				<Frame point="513 1052"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="QTEFrame">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20140428.png" size="512 384">
+			<Index name="IR_LeftTop" rate="0">
+				<Frame point="2 2"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="SelectionBox">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20140428.png" size="98 98">
+			<Index name="IR_SelfHero" rate="0">
+				<Frame point="616 188"/>
+			</Index>
+			<Index name="IR_SelfGuard" rate="0">
+				<Frame point="605 412"/>
+			</Index>
+			<Index name="IR_SelfHeroS" rate="0">
+				<Frame point="705 288"/>
+			</Index>
+			<Index name="IR_SelfGuardS" rate="0">
+				<Frame point="616 88"/>
+			</Index>
+			<Index name="IR_PartHero" rate="0">
+				<Frame point="305 388"/>
+			</Index>
+			<Index name="IR_PartGuard" rate="0">
+				<Frame point="105 388"/>
+			</Index>
+			<Index name="IR_PartHeroS" rate="0">
+				<Frame point="405 388"/>
+			</Index>
+			<Index name="IR_PartGuardS" rate="0">
+				<Frame point="205 388"/>
+			</Index>
+			<Index name="IR_EnemyHero" rate="0">
+				<Frame point="516 212"/>
+			</Index>
+			<Index name="IR_EnemyGuard" rate="0">
+				<Frame point="505 388"/>
+			</Index>
+			<Index name="IR_EnemyHeroS" rate="0">
+				<Frame point="605 312"/>
+			</Index>
+			<Index name="IR_EnemyGuardS" rate="0">
+				<Frame point="516 112"/>
+			</Index>
+		</Group>
+	</Resource>
+	<Resource type="ResourceImageSet" name="SelfHeroBtnImg">
+		<Group name="Game" texture="MyGUI_GameSkinsImg_20140428.png" size="98 98">
+			<Index name="normal" rate="0">
+				<Frame point="616 188"/>
+			</Index>
+			<Index name="pushed" rate="0">
+				<Frame point="705 288"/>
+			</Index>
+			<Index name="highlighted" rate="0">
+				<Frame point="616 188"/>
+			</Index>
+			<Index name="normal_checked" rate="0">
+				<Frame point="705 288"/>
+			</Index>
+		</Group>
+	</Resource>
+</MyGUI>

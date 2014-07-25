@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="List">
+	<List file="MyGUI_Fonts.xml"/>
+	<List file="MyGUI_Images.xml"/>
+	<List file="MyGUI_CommonSkins.xml"/>
+	<List file="MyGUI_BlackOrangeTheme.xml"/>
+	<List file="MyGUI_SkinList.xml"/>
+	<List file="MyGUI_Layers.xml"/>
+	<List file="MyGUI_Settings.xml"/>
+	<List file="MyGUI_Language.xml"/>
+	<List file="MyGUI_BuffImages.xml"/>
+	<List file="MyGUI_HeroImages.xml"/>
+	<List file="MyGUI_HeroBodyImages.xml"/>
+	<List file="MyGUI_HeroPortraitImages.xml"/>
+	<List file="MyGUI_HeroPortraitRImages.xml"/>
+	<List file="MyGUI_SkillImages.xml"/>
+	<List file="MyGUI_CardImages.xml"/>
+	<List file="MyGUI_CardRImages.xml"/>
+	<List file="MyGUI_StonePortraitRImages.xml"/>
+	<List file="MyGUI_BlackOrangeTheme.xml"/>
+	<List file="MyGUI_GameMiscSkins.xml"/>
+</MyGUI>

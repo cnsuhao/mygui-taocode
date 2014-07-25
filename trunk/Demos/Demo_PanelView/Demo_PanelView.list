@@ -1,0 +1,35 @@
+set (HEADER_FILES
+  DemoKeeper.h
+  PanelDirector.h
+  PanelDynamic.h
+  PanelStatic.h
+  PanelView.h
+  PanelViewCell.h
+  PanelViewWindow.h
+)
+set (SOURCE_FILES
+  ../../Common/Base/BaseResource.rc
+  DemoKeeper.cpp
+  PanelDirector.cpp
+  PanelDynamic.cpp
+  PanelStatic.cpp
+)
+SOURCE_GROUP("Header Files" FILES
+  DemoKeeper.h
+  PanelDirector.h
+  PanelDynamic.h
+  PanelStatic.h
+  PanelView.h
+  PanelViewCell.h
+  PanelViewWindow.h
+)
+SOURCE_GROUP("Resources" FILES
+  ../../Common/Base/BaseResource.rc
+  CMakeLists.txt
+)
+SOURCE_GROUP("Source Files" FILES
+  DemoKeeper.cpp
+  PanelDirector.cpp
+  PanelDynamic.cpp
+  PanelStatic.cpp
+)
